@@ -11,13 +11,13 @@
   url: /04-tools
   children:
     - title: 04.1 Plug Data
-      url: /04-1-plug-data
+      url: /chapter-04/04-1-plug-data
     - title: 04.2 Daisy Seed
-      url: /04-2-daisy-seed
+      url: /chapter-04/04-2-daisy-seed
     - title: 04.3 hvcc
-      url: /04-3-hvcc
+      url: /chapter-04/04-3-hvcc
     - title: 04.4 JSON-File
-      url: /04-4-json-file
+      url: /chapter-04/04-4-json-file
 
 - title: 05 Programming a Synth
   url: /kapitel5/05-programming-a-synth
