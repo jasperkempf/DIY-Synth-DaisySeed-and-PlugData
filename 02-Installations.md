@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kapitel 2 – Technik
+title: 02 - Installations
 nav_order: 3
 ---
 
