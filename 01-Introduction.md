@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kapitel 1 – Einführung
+title: 01 - Introduction
 nav_order: 2
 ---
 
