@@ -10,6 +10,6 @@ Hier findest du eine Gliederung nach Kapiteln.
 
 ## Kapitelübersicht
 
-- [Kapitel 1](kapitel1.md)
-- [Kapitel 2](kapitel2.md)
-- [Kapitel 3](kapitel3.md)
+- [01 Introduction](01-introduction.md)
+- [02 Installations](02-Installations.md)
+- [03 Components](03-Components.md)
