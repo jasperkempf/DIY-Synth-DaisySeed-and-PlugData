@@ -21,4 +21,4 @@ Comfortability aside – Plug Data offers **two features that are extremely impo
 (picture of compile window)
 (picture of compiled mode)
 
-We will dive into the creation of Plug Data Patches in this chapter (link)
+**We will dive into the creation of a Synthesizer with Plug Data Chapter 05**
