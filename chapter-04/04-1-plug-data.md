@@ -16,7 +16,7 @@ Firstly, as the software is **open source Plug Data is completely free to downlo
 
 Plug Data makes patching even more comfortable by introducing features such as **automatic object suggestions, signal- and message-flow feedback**, **dynamic patching possibilities** and more.
 
-Comfortability aside – Plug Data offers **two features that are extremely important** for creating our embedded synthesizer with the Daisy Seed. Firstly, it includes the **heavy-compiler**. This will allow us, to** upload (or “flash”) our patch directly from Plug Data onto our microcontroller.** Secondly, Plug Data includes the **“compiled mode”**, which – when enabled– **marks unsupported objects that cannot be compiled by heavy** and will also e**xclude them from the object suggestions** that pop up while creating a new object. 
+Comfortability aside – Plug Data offers **two features that are extremely important** for creating our embedded synthesizer with the Daisy Seed. Firstly, it includes the **heavy-compiler**. This will allow us, to **upload (or “flash”) our patch directly from Plug Data onto our microcontroller.** Secondly, Plug Data includes the **“compiled mode”**, which – when enabled– **marks unsupported objects that cannot be compiled by heavy** and will also e**xclude them from the object suggestions** that pop up while creating a new object. 
 
 (picture of compile window)
 (picture of compiled mode)
