@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kapitel 3 – Ergebnisse
+title: 03 - Components
 nav_order: 4
 ---
 
