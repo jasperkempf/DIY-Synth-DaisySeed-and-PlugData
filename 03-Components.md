@@ -26,23 +26,23 @@ Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-
 ## List of components:
 
 **Microcontroller**:
-Daisy Seed Microcontroller
-Mini-USB Cable (Data Transmitting)
+- Daisy Seed Microcontroller
+- Mini-USB Cable (Data Transmitting)
 
 **Control Elements and Prototyping:**
-12 x 10K Potentiometer
-Breadboard-friendly switches
-LEDs
-Breadboard
-Jumper wires
-Resistors (+values)
+- 12 x 10K Potentiometer
+- Breadboard-friendly switches
+- LEDs
+- Breadboard
+- Jumper wires
+- Resistors (+values)
 
 **MIDI:**
-5-Pin DIN-Jack
-5-Pin Midi-cable
-6N138 Optocoupler
-1N914 diode
+- 5-Pin DIN-Jack
+- 5-Pin Midi-cable
+- 6N138 Optocoupler
+- 1N914 diode
 
 **Audio :**
-6,3mm Stereo-Jack
-6,3mm Stereo-cable
+- 6,3mm Stereo-Jack
+- 6,3mm Stereo-cable
