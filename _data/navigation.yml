@@ -11,7 +11,7 @@
   url: /04-tools
   children:
     - title: 04.1 Plug Data
-      url: /04-1-plug-data.md
+      url: /04-1-plug-data
     - title: 04.2 Daisy Seed
       url: /04-2-daisy-seed
     - title: 04.3 hvcc
