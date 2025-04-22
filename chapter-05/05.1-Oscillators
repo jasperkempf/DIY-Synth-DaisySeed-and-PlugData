@@ -2,7 +2,7 @@
 layout: default
 title: 05 - Oscillators
 nav_order: 5
-parent: 05 Programming a Synthesizer
+parent: 05 Programming a Synth
 ---
 
 # 05 - Oscillators
