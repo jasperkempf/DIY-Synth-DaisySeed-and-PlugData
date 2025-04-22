@@ -1,0 +1,44 @@
+- title: 01 Introduction
+  url: /01-introduction
+
+- title: 02 Installations
+  url: /02-installations
+
+- title: 03 Components
+  url: /03-components
+
+- title: 04 Tools
+  url: /04-tools
+  children:
+    - title: 04.1 Plug Data
+      url: /04-1-plug-data
+    - title: 04.2 Daisy Seed
+      url: /04-2-daisy-seed
+    - title: 04.3 hvcc
+      url: /04-3-hvcc
+    - title: 04.4 JSON-File
+      url: /04-4-json-file
+
+- title: 05 Programming a Synth
+  url: /kapitel5/05-programming-a-synth
+  children:
+    - title: 05.1 Oscillators
+      url: /kapitel5/05-1-oscillators
+    - title: 05.2 Filters
+      url: /kapitel5/05-2-filters
+    - title: 05.3 Modulation
+      url: /kapitel5/05-3-modulation
+    - title: 05.4 Polyphony
+      url: /kapitel5/05-4-polyphony
+
+- title: 06 Daisy Hardware Configuration
+  url: /kapitel6/06-hardware-configuration
+  children:
+    - title: 06.1 Audio IO
+      url: /kapitel6/06-1-audio-io
+    - title: 06.2 Reading Analog Pin Values
+      url: /kapitel6/06-2-analog-read
+    - title: 06.3 Reading Digital Pin Values
+      url: /kapitel6/06-3-digital-read
+    - title: 06.4 MIDI-Input
+      url: /kapitel6/06-4-midi-input
