@@ -31,8 +31,14 @@ Now we can reverse to whole process and create a digital outlet by using a send-
 
 <img width="188" alt="led-pd" src="https://github.com/user-attachments/assets/2a81fae5-5702-4cc2-a802-47c5583427ef" />
 
-In our JSON-File, I declare “led1” as an Led-component  and connect it to Pin 27 (D27). The Daisy will then pass on the values from the patch as high or low voltage and send it out of the digital Pin 27.
+In our JSON-File, I declare `led1` as an Led-component  and connect it to Pin 12 (D12). The Daisy will then pass on the values from the patch as high or low voltage and send it out via the digital Pin 12.
 
+```
+   "led1": {
+            "component": "Led",
+            "pin": 12
+        },
+```
 <img width="203" alt="led-json" src="https://github.com/user-attachments/assets/a584ffde-20b3-484f-bdfa-0b6057c1d38d" />
 
 Now we can connect our switch and the LED components to our Daisy as seen in the following schematic. The analog and digital ground of the Daisy are connected via the outer rails and to protect the LED, a 470Ω resistor is used.
