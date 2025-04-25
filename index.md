@@ -6,7 +6,7 @@ nav_order: 1
 
 # Welcome to my Tutorial on how to build a custom Synthesizer with Daisy Seed and Plug Data
 
-Hier findest du eine Gliederung nach Kapiteln.
+Here you'll find an overview of all topics
 
 ## Overview
 
