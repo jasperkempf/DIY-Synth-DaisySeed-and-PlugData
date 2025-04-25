@@ -11,7 +11,12 @@ To make our synthesizer **playable with external devices** such as keyboards or 
 
 <img width="454" alt="midi-input-schematic" src="https://github.com/user-attachments/assets/d785da1d-aa7e-48a8-835e-e78809d0c248" />
 
-The following **fritzing-schematic** shows, how I realized the connection on a breadboard to make the MIDI-input work.
+The following **fritzing-schematic** shows, how I realized the connection on a breadboard to make the MIDI-input work. I used the following components:
+- 1x 5-Pin DIN-Jack
+- 1x 6N138 Optocoupler
+- 1x 1N914 diode
+- 1x 220Ω Resistor
+- 1x 280Ω Resistor
 
 ![midi-Input-fritz](https://github.com/user-attachments/assets/5c060f24-98d4-4f4e-9d54-9513c27857a5)
 
