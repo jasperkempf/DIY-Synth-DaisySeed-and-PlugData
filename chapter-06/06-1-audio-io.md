@@ -21,6 +21,10 @@ In Pd our Output is declared by creating a dac~-Object (digital to analog conver
 
 In our JSON-File, we declare two audio channels with the following code:
 
-<img width="244" alt="adccode" src="https://github.com/user-attachments/assets/e06aa1ca-6153-43b6-be27-811fb7ad2b2e" />
+```
+   "audio": {
+        "channels": 2
+    },
+```
 
 Now we can run a Pd-Patch on the Daisy that will output the signal from the patch via the Output-Pins of the Microcontroller.
