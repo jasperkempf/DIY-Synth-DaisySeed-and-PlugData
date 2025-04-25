@@ -4,11 +4,11 @@ title: Start
 nav_order: 1
 ---
 
-# Willkommen bei meinem Projekt
+# Welcome to my Tutorial on how to build a custom Synthesizer with Daisy Seed and Plug Data
 
 Hier findest du eine Gliederung nach Kapiteln.
 
-## Kapitelübersicht
+## Overview
 
 - [01 Introduction](chapter-01/01-Introduction.md)
 - [02 Installations](chapter-02/02-Installations.md)
