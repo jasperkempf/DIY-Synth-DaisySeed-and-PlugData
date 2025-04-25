@@ -9,11 +9,18 @@ nav_order: 2
 
 Let’s have a look at reading analog pin values from a potentiometer. In the example patch, you will see an example of what an object looks like that receives an external input. For Heavy-Parameters, we use the flag @hv_param to define a parameter. The letter “r” declares it as receive object (opposed to “s” which would create a send-object, thus an output) You can name the parameter anything you like, however I recommend using names that are short and easy to memorize. 
 
-In order to receive outputs from an analog pin, we’ll need to tell the Daisy Seed, which Pin the Parameter corresponds to. This needs to be declared in our custom JSON-File. The following two screenshots show an example of how this can be configured for an input parameter called “p1” which will be read out from Pin 15, which is Pin A0 on the Daisy Seed. 
+In order to receive outputs from an analog pin, we’ll need to tell the Daisy Seed, which Pin the Parameter corresponds to. This needs to be declared in our custom JSON-File. The following screenshot shows an example and the respective code of how this can be configured for an input parameter called “p1” which will be read out from Pin 15, which is Pin A0 on the Daisy Seed. 
 
 <img width="188" alt="input" src="https://github.com/user-attachments/assets/eef02f10-5313-4866-95b4-d8485b0319b1" />
 
-<img width="247" alt="json-p1" src="https://github.com/user-attachments/assets/096dd089-64da-4f04-9606-032bb2d10d60" />
+```
+"components": {
+        "p1": {
+            "component": "AnalogControl",
+            "pin": 15
+        }
+        }
+```
 
 Now the last thing we need to do is to connect a potentiometer to our microcontroller. In the following schematic you can see how to connect the potentiometer to your breadboard and the Daisy Seed.
 
