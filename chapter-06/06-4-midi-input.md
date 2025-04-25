@@ -17,8 +17,11 @@ The following **fritzing-schematic** shows, how I realized the connection on a b
 - 1x 1N914 diode
 - 1x 220Ω Resistor
 - 1x 280Ω Resistor
+- jumper wires
 
 ![midi-Input-fritz](https://github.com/user-attachments/assets/5c060f24-98d4-4f4e-9d54-9513c27857a5)
+
+Note that the analog and digital ground of the daisy are connected via the outer rail of the breadboard.
 
 In our **JSON-File**, we need to configure the MIDI-Input as follows:
 
