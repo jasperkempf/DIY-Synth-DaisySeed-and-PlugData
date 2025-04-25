@@ -15,10 +15,10 @@ In order to receive outputs from an analog pin, we’ll need to tell the Daisy S
 
 ```
 "components": {
-        "p1": {
-            "component": "AnalogControl",
-            "pin": 15
-        }
+                "p1": {
+                    "component": "AnalogControl",
+                    "pin": 15
+                }
         }
 ```
 
