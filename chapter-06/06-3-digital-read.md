@@ -17,7 +17,12 @@ Similar to our analog input, we use the same “@hv_param”-flag to create rece
 
 Note how there is no difference to the analog input noticeable yet. Pd will simply receive the input and route it to its destination. However, we need to tell the Daisy Seed, which input the parameter “sw1” needs to be read out from. This happens again in our JSON-File as follows:
 
-<img width="200" alt="switch-json" src="https://github.com/user-attachments/assets/ffe2db73-f595-47de-8df1-31f40f7cbe7c" />
+```
+ "sw1" : {
+            "component": "Switch",
+            "pin": 0
+        },
+```
 
 As we flash our patch together with our custom JSON-File onto the Daisy, it will “understand” that the Parameters declared in Pd correspond to the Pins named in the JSON-File.
 In this case we declared a “Switch”-component and connected it to Pin 29 (“D29”) – which is a digital Pin on the Daisy. 
