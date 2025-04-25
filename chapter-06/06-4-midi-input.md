@@ -31,6 +31,8 @@ In our **JSON-File**, we need to configure the MIDI-Input as follows:
       },
 
 ```
+This will activate MIDI-In and Output via the `UART-Rx` and `UART-Tx` Pins (Pin 13 and 14).
+
 There are quite a few MIDI-related objects **that are compatible with heavy.** On the [hvcc Github repository by wasted audio](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/04.midi.md), we can see the **full list of usable objects.** Using heavy, these objects will get replaced by “wrappers”, which route the incoming MIDI-Data to the right address.
 
 To ensure a **broad connectivity with many devices,** I will limit the usage of MIDI-Objects to the `notein`-object and implement **as many controls through hardware components as possible.**
