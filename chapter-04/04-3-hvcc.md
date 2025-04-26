@@ -30,7 +30,7 @@ In order to not have to constantly look at the list of supported objects, to kno
 
 When activated, the **object manager will only show heavy-supported objects.** While we can still manually add other objects to our patch, **unsupported ones are marked by a orange outline.** By activating compiled mode, **we can patch freely with the available objects** and **don't need to worry** about compatibility with hvcc.
 
-We will look at the detailed steps of compiling and flashing a patch with heavy in [chapter 07](chapter-07/07-flashing-a-patch)
+We will look at the detailed steps of compiling and flashing a patch with heavy in [chapter 07](chapter-07/07-flashing-a-patch.md)
 
 
 ## Known limitations
