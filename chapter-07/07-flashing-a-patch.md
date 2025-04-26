@@ -1,4 +1,4 @@
-## Compiling and flashing a patch
+## 07 Compiling and flashing a patch
 
 Using the hvcc integration, we can flash a patch directly from Plug Data onto our Daisy Seed Microcontroller. To do that, we first need to to set the Daisy Seed to Bootloader-Mode, which will allow flashing a new patch. This is done via the onboard-buttons of the Daisy as follows:
 
