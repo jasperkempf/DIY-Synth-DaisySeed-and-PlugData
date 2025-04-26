@@ -30,7 +30,7 @@ In order to not have to constantly look at the list of supported objects, to kno
 
 When activated, the **object manager will only show heavy-supported objects.** While we can still manually add other objects to our patch, **unsupported ones are marked by a orange outline.** By activating compiled mode, **we can patch freely with the available objects** and **don't need to worry** about compatibility with hvcc.
 
-We will look at the detailed steps of compiling and flashing a patch with heavy in [chapter 07](chapter-07/07-flashing-a-patch.md) 
+We will look at the detailed steps of compiling and flashing a patch with heavy in [chapter 07]([chapter-07/07-flashing-a-patch.md](https://github.com/jasperkempf/DIY-Synth-DaisySeed-and-PlugData/blob/5ff1db08fa1d4cda68ed38ec0ff5c8ea6cabec6b/chapter-07/07-flashing-a-patch.md) 
 
 
 ## Known limitations
