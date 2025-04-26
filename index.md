@@ -16,4 +16,4 @@ Here you'll find an overview of all topics
 - [04 Tools](chapter-04/04-Tools.md)
 - [05 Programming a Synth](chapter-05/05-programming-a-synth.md)
 - [06 Daisy Hardware Configuration](chapter-06/06-Daisy-Hardware-Configuration)
-- [07 Flashing a Patch](chapter-07/flashing-a-patch.md)
+- [07 Flashing a Patch](chapter-07/07-flashing-a-patch.md)
