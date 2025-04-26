@@ -5,9 +5,9 @@ parent: 04 - Tools
 nav_order: 3
 ---
 
-# 04.3 - Flashing a Patch and the Heavy Compiler Collection (hvcc)
+# 04.3 Heavy Compiler Collection (hvcc)
 
-This is an excerpt from the official heavy documentation:
+We will use the heavy compiler collection to transform our Pd-Patch into a C Code. To explain what hvcc does, I include the following excerpt from the official heavy documentation:
 
 _“Heavy is a **framework for easily generating audio plugins** for use in interactive sound and music applications such as **games, instruments or installations.**
 It aims to **reduce the dependency on low-level programming** from a creative standpoint and **bridge the gap from idea to production-ready implementation.**
@@ -29,6 +29,8 @@ In order to not have to constantly look at the list of supported objects, to kno
 <img width="313" alt="compiled-mode" src="https://github.com/user-attachments/assets/7b2cf893-de0e-40b8-a1de-602555127de5" />
 
 When activated, the **object manager will only show heavy-supported objects.** While we can still manually add other objects to our patch, **unsupported ones are marked by a orange outline.** By activating compiled mode, **we can patch freely with the available objects** and **don't need to worry** about compatibility with hvcc.
+
+We will look at the detailed steps of compiling and flashing a patch with heavy in [chapter 07](chapter-07/07-flashing-a-patch)
 
 
 ## Known limitations
