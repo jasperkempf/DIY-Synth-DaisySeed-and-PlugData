@@ -17,6 +17,6 @@ Please keep in mind that those videos are **not necessarily aimed at the use of 
 
 Once you feel a bit familiar with the way Plug Data works, feel free to follow along with the contents of this chapter below, where we will focus on **programming a synth compatible with a Daisy Seed Microcontroller**.
 
-You can download all example Patches <a href="{{ site.baseurl }}/assets/pd-patches" download>here</a> !
+You can download all example Patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a> !
 
 
