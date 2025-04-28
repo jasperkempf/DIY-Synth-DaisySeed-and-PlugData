@@ -7,7 +7,7 @@ nav_order: 1
 
 # 05.1 - Oscillators
 
-#### The example patches for this chapter are Pd01-oscillators and Pd02-counter. You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
+### The example patches for this chapter are Pd01-oscillators and Pd02-counter. You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
 
 
 As a basis for our synthesizer, we need a sound source. In this chapter we will have a look at creating different types of oscillators, so we can switch between them for different sound characteristics. We will implement **the typical basic waveforms of Sine-, Saw,- and Square-wave**, as well as a **noise generator**.
