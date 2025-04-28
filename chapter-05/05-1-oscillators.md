@@ -7,6 +7,9 @@ nav_order: 1
 
 # 05.1 - Oscillators
 
+## The example patches for this chapter are Pd01-oscillators and Pd02-counter. You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
+
+
 As a basis for our synthesizer, we need a sound source. In this chapter we will have a look at creating different types of oscillators, so we can switch between them for different sound characteristics. We will implement **the typical basic waveforms of Sine-, Saw,- and Square-wave**, as well as a **noise generator**.
 
 To create an oscillator, we can choose between the pd Vanilla objects of `osc~` and `phasor` as well as the heavylib-generator `hv.osc~`. The `hv.osc~` can be configured as `hv.osc~ sine`, `hv.osc~ square`, `hv.osc~ saw` for generating different waveforms. As a noise source, the `hv.pinknoise`-object can be used. The Patch `Pd01-Oscillators` shows an example of these available generators and lets us listen to them by clicking on the message boxes in upper region of the patch. The patch also includes a Pitch and a Volume slider, which is connected to the most right inlet of the subpatch containing our generators.
