@@ -7,4 +7,12 @@ nav_order: 4
 
 # 05.4 - Polyphony (Pd09-Polyphony.pd)
 
-To make our synthesizer capable of playing multiple notes at once, we will have a look at implementing Polyphony. 
+To make our synthesizer capable of playing multiple notes at once, we will have a look at implementing Polyphony. The example patch _Pd09-Polyphony.pd_ shows how to implement 4 Voices of Polyphony.
+
+In Plug Data, multiple vooices can be created using the `poly `-object. As we receive MIDI-Data via the `notein`-object or by activating the simple sequencer, we use a `pack f f` to pack the note number and the velocity into a list. The `poly 4` object assigns the incoming Note-Information to one of 4 voices. The output of the `poly 4` is packed by a `pack f f f`-object (Voice number, Note Number, Note Velocity) and then fed into a `route 1 2 3 4`-object. As the voice number marks the first position in the list created by `pack f f f`, the `route 1 2 3 4` will distribute each note and velocity-value out of it's corresponding outlet (Voice Number 1 -> Route output 1). 
+
+Now we have 4 blocks of `unpack`-objects that split up the lists into pairs of note and velocity values again. The Note values are transformed into frequency-values by an `mtof`-object, and are passed onto a `pd oscillators`-subpatch, which contains our sound generators. Each voice has their own subpatch with the same set of generators inside.
+
+<img width="540" alt="05-03-Polyphony" src="https://github.com/user-attachments/assets/fa5a7047-a06a-4373-96a9-8f0b66c745a5" />
+
+In this example, the Velocity values are used to stop the notes from playing at a velocity of 0. They are routed into a `line~ `-object to create a simple ramp with a smoothing of 10ms via the `$1 10`-message.
