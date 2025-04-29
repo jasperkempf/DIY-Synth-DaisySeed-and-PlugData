@@ -17,4 +17,4 @@ To expand the sound design possibilities of our Instrument, we'll have a look at
 
 Our example Patch _Pd04-LFO-Example_ is a simple patch, that lets us select different LFO-waveshapes and visualizes them for demonstrative purposes. Changing the waveform via the Toggle and altering the Frequency via the slider gives us a better understanding of the underlying signal generation that is taking place in the subpatch.
 
-<img width="599" alt="05-03-LfoExample" src="https://github.com/user-attachments/assets/e3ecee31-24da-4b6e-b277-1bde53ae20ff" />
+<img width="1080" alt="05-03-LfoExample" src="https://github.com/user-attachments/assets/e3ecee31-24da-4b6e-b277-1bde53ae20ff" />
