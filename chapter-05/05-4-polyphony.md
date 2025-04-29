@@ -23,7 +23,7 @@ In this example, the Velocity values are used to stop the notes from playing at 
 
 To make our notes more natural-sounding than just a simple on-off signal, we can implement the Attack-release-envelope which we've created in the previous chapter. Each voice needs their own envelope, while all envelopes should receive the same attack and release values. The Patch _Pd10-Poly-Envelopes.pd_ shows how each voice features its own envelope.
 
-<img width="1281" alt="Bildschirmfoto 2025-04-29 um 17 47 34" src="https://github.com/user-attachments/assets/cf004b5c-dba0-41c1-8bf3-4608e0297276" />
+<img width="540" alt="Bildschirmfoto 2025-04-29 um 17 47 34" src="https://github.com/user-attachments/assets/cf004b5c-dba0-41c1-8bf3-4608e0297276" />
 
 Using send and receive objects, the attack and release values are passed on to each `pd AR Envelope`-subpatch from the controls on the top right of the patch. This also keeps the patch a bit more organized and less crowded.
 
