@@ -30,3 +30,5 @@ As my instrument will work with **simple controls only,** i wanted to implement 
 The Modulo-Operator will give out **the remainder of dividing the input with the output, using integers only.** That means, a `% 4`-Operator will **let all numbers from 0 to 3 through and reset to 0 when a 4 is reached** (4/4 is 1, leaving a remainder of 0). Feeding the ouput of the `% 4`-operator into a **variable message box `$ 1`**, will replace the stored number. Each time the button is pressed, a `1` is send into the `+ `-operator, adding one to the stored number in the `$1`-variable. This now counts from 0 to 3, one step per button-press. To shift the range to 1 to 4 we simply add a `+ 1` operation on the output, which feeds into the `select 1 2 3 4`-object. This allows us to select multiple waveforms by pressing a simple button.
 
 ![05-01-counter](https://github.com/user-attachments/assets/59a1d1f0-c0f6-4e5b-a75d-9eba8d5d08e8)
+
+In the next chapter, we'll take a look at implementing filters.
