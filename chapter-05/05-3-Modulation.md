@@ -49,7 +49,29 @@ The downside of this method is, that there are less waveforms available with the
 
 ### Amplitude Modulation (Pd07-SimpleAM.pd)
 
-To use our LFO to modulate the amplitude of a signal, we can simply multiply the source signal with our modulator using a `*~ `. As opposed to our Frequency-Modulation, where we extended the modulation range, this is not necessarily required with Amplitude Modulation as it already moves between 0 and 1.
+To use our LFO to modulate the amplitude of a signal, we can simply multiply the source signal with our modulator signal using `*~ `. As opposed to our Frequency-Modulation, where we extended the modulation range, this is not necessarily required with amplitude modulation as it already operates between 0 and 1. As you can see in the two `scope~`-objects, the signal multiplication causes the output of the oscillator to follow the amplitude of the LFO-waveform. 
+
+<img width="540" alt="05-03-SimpleAM" src="https://github.com/user-attachments/assets/ef65f3a8-7083-40cb-8f38-1ae84c396feb" />
+
+Feel free to open the example patches and play around with it to get a better understanding of how they work!
+
+## Envelopes (Pd.08-Envelope.pd)
+
+To change the character of played notes, we'll have a look of implementing a simple Amplitude-Envelope. The patch _Pd.08-Envelope.pd_ gives an example of what that can look like with a simple Attack-Release Envelope. Activating the sequencer in the top-left of the patch will play a simple 4-Note sequence on loop, which will allow us to hear the effects of tweaking the Attack and Release parameters. As visualized in the `scope~`, these two parameters alter the envelope of the played note by either fading it in and out (long attack and release values), or make the volume changes very abrupt (short attack and release values). As an alternative to the sequencer, you can receive MIDI from an outside source (such as a DAW) or hook up a MIDI controller to play notes (needs to be configured in the Plug Data preferences -> MIDI).
+
+<img width="540" alt="Bildschirmfoto 2025-04-29 um 15 23 42" src="https://github.com/user-attachments/assets/0264f26a-7674-4092-9bef-4a8a9f76ef00" />
+
+Opening the subpatch `pd AR Envelope` gives us an impression of how the envelope is generated. Heart of the patch is the `hv.vline~`-object, which is the signal ramp generator. The `hv.vline~`-object will be receive a pair of two numbers coming from a message box storing two variables `$1 $2`. These two variables store the velocity and a time value in milliseconds, telling the `hv.vline~` to reach the target value of `$1` in the defined time of `$2`. These two values come from the main patch and are packed into a list by the `pack f f`-object. 
+
+As you can see we have two pairs of `pack f f` and `$1 $2`-objects. The left pair defines the attack-time and target value (based on incoming velocity), the right pair the release-time.
+
+As Plug Data does not have note-off events – which would be used to trigger the release of a note – I used the velocity value of `0` as trigger for the release. The `select 0`-object will filter an incoming value of 0, which will trigger the release-time and pass it onto the `hv.vline~`-object. All non-zero velocity values will trigger the attack, which will cause an audible output.
+
+ <img width="540" alt="05-03-EnvSubpatch" src="https://github.com/user-attachments/assets/ecccd481-b154-4e0c-82cf-34823330d283" />
+
+
+
+
 
 
 
