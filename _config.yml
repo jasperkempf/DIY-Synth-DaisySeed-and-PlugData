@@ -2,7 +2,11 @@ title: Daisy Seed and Plug Data
 baseurl: "/DIY-Synth-DaisySeed-and-PlugData"
 remote_theme: just-the-docs/just-the-docs
 
+
 just_the_docs:
-  color_scheme: "dark"
+color_scheme: "dark"
+dark_mode:
+    enabled: true
+    
   navigation:
     structure: _data/navigation.yml
