@@ -65,7 +65,7 @@ Opening the subpatch `pd AR Envelope` gives us an impression of how the envelope
 
 As you can see we have two pairs of `pack f f` and `$1 $2`-objects. The left pair defines the attack-time and target value (based on incoming velocity), the right pair the release-time.
 
-As Plug Data does not have note-off events – which would be used to trigger the release of a note – I used the velocity value of `0` as trigger for the release. The `select 0`-object will filter an incoming value of 0, which will trigger the release-time and pass it onto the `hv.vline~`-object. All non-zero velocity values will trigger the attack, which will cause an audible output.
+As Plug Data does not have note-off events – which would be used to trigger the release of a note – I used the velocity value of `0` as trigger for the release. The `select 0`-object will filter an incoming value of 0, which will trigger the release-time and pass it onto the `hv.vline~`-object. All non-zero velocity values will trigger the attack, causing an audible output from the main patch.
 
  <img width="540" alt="05-03-EnvSubpatch" src="https://github.com/user-attachments/assets/ecccd481-b154-4e0c-82cf-34823330d283" />
 
