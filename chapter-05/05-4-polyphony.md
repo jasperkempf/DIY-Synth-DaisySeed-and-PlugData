@@ -5,7 +5,9 @@ parent: 05 - Programming a Synthesizer
 nav_order: 4
 ---
 
-# 05.4 - Polyphony (Pd09-Polyphony.pd)
+# 05.4 - Polyphony 
+
+### Simple Polyphony (Pd09-Polyphony.pd)
 
 To make our synthesizer capable of playing multiple notes at once, we will have a look at implementing Polyphony. The example patch _Pd09-Polyphony.pd_ shows how to implement 4 Voices of Polyphony.
 
@@ -16,3 +18,12 @@ Now we have 4 blocks of `unpack`-objects that split up the lists into pairs of n
 <img width="540" alt="05-03-Polyphony" src="https://github.com/user-attachments/assets/fa5a7047-a06a-4373-96a9-8f0b66c745a5" />
 
 In this example, the Velocity values are used to stop the notes from playing at a velocity of 0. They are routed into a `line~ `-object to create a simple ramp with a smoothing of 10ms via the `$1 10`-message.
+
+### Polyphonic Envelopes (Pd10-Poly-Envelopes.pd)
+
+To make our notes more natural-sounding than just a simple on-off signal, we can implement the Attack-release-envelope which we've created in the previous chapter. Each voice needs their own envelope, while all envelopes should receive the same attack and release values. The Patch _Pd10-Poly-Envelopes.pd_ shows how each voice features its own envelope.
+
+<img width="1281" alt="Bildschirmfoto 2025-04-29 um 17 47 34" src="https://github.com/user-attachments/assets/cf004b5c-dba0-41c1-8bf3-4608e0297276" />
+
+Using send and receive objects, the attack and release values are passed on to each `pd AR Envelope`-subpatch from the controls on the top right of the patch. This also keeps the patch a bit more organized and less crowded.
+
