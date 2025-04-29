@@ -5,10 +5,20 @@ remote_theme: just-the-docs/just-the-docs@main
 plugins:
   - jekyll-remote-theme
 
+sass:
+  style: compressed
+
+
 just_the_docs:
   color_scheme: "dark"
   dark_mode:
     enabled: true
+  assets:
+    css:
+      - "/assets/css/custom.scss"
+
 
 navigation:
   structure: _data/navigation.yml
+
+
