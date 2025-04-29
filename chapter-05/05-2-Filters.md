@@ -7,7 +7,7 @@ nav_order: 2
 
 # 05.2 - Filters
 
-### The example patches for this chapter _Pd03-Filter-Examples_. 
+### The example patch for this chapter is _Pd03-Filter-Examples_. 
 
 You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
 
