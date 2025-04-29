@@ -7,15 +7,13 @@ nav_order: 3
 
 # 05.3 - Modulation
 
-### The example patches for this chapter are _Pd04-LFO-Example_ and _Pd05-Envelopes_.
-
 You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
 
 To expand the sound design possibilities of our Instrument, we'll have a look at implementing two different types of modulation – LFOs (low frequency oscillators) and Envelopes. Both can technically be used to modulate any thinkable parameter of a synth. While LFOs describe a modulation curve, that is running permanently (unless configured otherwise) at the set Rate or frequency, an envelope is typically triggered by incoming note-on and note-off events (typically transmitted through MIDI-Data).
 
-## LFOs
+## LFOs (Pd04-LFO-Example.pd)
 
-Our example Patch _Pd04-LFO-Example_ is a simple patch, that lets us select different LFO-waveshapes and visualizes them for demonstrative purposes with a `scope~`. Changing the waveform via the bang and altering the frequency via the slider gives us a better understanding of the underlying signal generation that is taking place in the subpatch.
+Our example Patch _Pd04-LFO-Example.pd_ is a simple patch, that lets us select different LFO-waveshapes and visualizes them for demonstrative purposes with a `scope~`. Changing the waveform via the bang and altering the frequency via the slider gives us a better understanding of the underlying signal generation that is taking place in the subpatch.
 
 <img width="1080" alt="05-03-LfoExample" src="https://github.com/user-attachments/assets/e3ecee31-24da-4b6e-b277-1bde53ae20ff" />
 
@@ -27,13 +25,15 @@ Instead, i used the `spigot`-object. This is a handy object with two inputs and 
 
 In the main patch, the float outlet of the subpatch is converted into a signal-stream by using a `sig~`-object. This allows us to use the generated waveform to modulate any parameter, such as the frequency or the amplitude of an oscillator.
 
-### Simple Frequency Modulation
+### Simple Frequency Modulation (Pd05-SimpleFM.pd)
 
 The example Patch _Pd05-SimpleFM.pd_ shows how we can simply use this LFO-Selector to modulate the frequency of an oscillator. By using the `+~ `-object, we can add the LFO-signal and the Oscillater-Frequency signal, before it's transmitted to the `hv.osc sine~`-object. Note that the LFO-Signal is connected to the left inlet of the `+~ `-operator, as this will continuosly trigger the calculation as the LFO signal-value changes.
 
 As the Amplitude of the LFO moves between 0 and 1, the modulation range is too low for modulating the frequency of an oscillator, as it wouldn't create an audible result. I added the FM Depth-control to extend the range from between 0 and a maximum of 3000. This will allow us to have a modulation range of up to +3000Hz for our oscillator pitch. 
 
 <img width="1080" alt="05-03-SimpleFM" src="https://github.com/user-attachments/assets/15a2a62f-67d4-4f3d-9275-01252b0706ef" />
+
+### Simple Frequency Modulation 2 (Pd06-OscFM.pd)
 
 This is a great way for modulating the frequency at lower rates (which an LFO is designed for in the first place). However, for modulating the pitch of an oscillator at higher frequencies, the `hv.lfo`-generators didn't provide results that were clean enough to produce pleasant harmonics. I assume, this is introduced by the float-to-signal conversion.
 
@@ -44,6 +44,8 @@ This was unfortunate to discover, as I found the implementation of this function
 The subpatch _FmEngine_ shows, how the different `hv.osc~ ` generators are activated and controlled.
 
 <img width="819" alt="05-03-OscFm-Subpatch" src="https://github.com/user-attachments/assets/97a50e6b-9c65-428f-8050-825ff6f4f69a" />
+
+The downside of this method is, that there are less waveforms available with the `hv.osc~ `-objects than wi
 
 
 
