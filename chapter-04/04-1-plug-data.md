@@ -25,3 +25,5 @@ Secondly, Plug Data includes the **“compiled mode”**, which – when enabled
 <img width="483" alt="Bildschirmfoto 2025-04-22 um 16 16 12" src="https://github.com/user-attachments/assets/5318d019-bc78-45d5-b991-c55a9a1c7d43" />
 
 We will look at **building a Synthesizer with Plug Data** in Chapter 05
+
+<p style="color: var(--body-text-color); background: var(--body-background-color); padding: 1em;">Wenn du diesen Kasten im Dunkelmodus siehst, ist alles OK ✅</p>
