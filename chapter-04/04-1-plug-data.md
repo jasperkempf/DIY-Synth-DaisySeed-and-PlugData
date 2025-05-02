@@ -26,4 +26,4 @@ Secondly, Plug Data includes the **“compiled mode”**, which – when enabled
 
 We will look at **building a Synthesizer with Plug Data** in Chapter 05
 
-<p style="color: var(--body-text-color); background: var(--body-background-color); padding: 1em;">Wenn du diesen Kasten im Dunkelmodus siehst, ist alles OK ✅</p>
+
