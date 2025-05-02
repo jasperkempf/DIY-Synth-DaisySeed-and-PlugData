@@ -17,7 +17,7 @@ Installing an audio input is very similar and simply requires us to connect the 
 
 In Pd our Output is declared by creating a `dac~`-Object (digital to analog converter), an input is created via the `adc~`-Object
 
-<img width="230" alt="adcdac" src="https://github.com/user-attachments/assets/7ff89289-6b11-4387-8457-a90b1d99d014" />
+<img width="540" alt="adcdac" src="https://github.com/user-attachments/assets/7ff89289-6b11-4387-8457-a90b1d99d014" />
 
 In our JSON-File, we declare two audio channels with the following code:
 
