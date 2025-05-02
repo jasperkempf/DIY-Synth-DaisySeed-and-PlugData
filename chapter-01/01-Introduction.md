@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 01 - Introduction
+title: 01 Introduction
 nav_order: 2
 ---
 
-# 01 – Introduction
+# 01 Introduction
 
 Hello!
 
