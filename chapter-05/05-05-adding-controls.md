@@ -33,7 +33,11 @@ This is important to know, as some objects trigger a calculation once they recei
 
 If your program does not work as expected once it's flashed on the Daisy, this could be something to look out for.
 
-## Smoothing
+## Smoothing (_Pd11-simulating-analog_smoothing.pd_)
 
-Because of the slight variation of input voltage, which is received through the analog inputs, it is recommmended to apply a certain amount of smoothing. This can be done via a `line`-object and a `$1 10`-message box.
+Because of the slight variation of input voltage, which is received through the analog inputs, it is recommmended to apply a certain amount of smoothing. This can be done via a `line`-object and a `$1 10`-message box. 
+
+<img width="471" alt="Bildschirmfoto 2025-05-02 um 11 58 06" src="https://github.com/user-attachments/assets/821c96bf-20a6-46ff-bf41-aa5adb8dc3fb" />
+
+
 
