@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 08 - Outlook
+title: 08 Outlook
 nav_order: 9
 ---
 
