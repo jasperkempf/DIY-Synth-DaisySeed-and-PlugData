@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 02 - Installations
+title: 02 Installations
 nav_order: 3
 ---
 
-# 02 – Installations
+# 02 Installations
 
 First, we’ll need to make sure you have the right software installed, which we will be needing for our project. We will mainly be needing the following two programs:
 
