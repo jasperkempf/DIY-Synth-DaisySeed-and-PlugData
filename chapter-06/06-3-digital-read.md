@@ -13,7 +13,7 @@ In this example **we will install a simple switch (“on/off-button”)** and us
 
 Similar to our analog input, we use the same `@hv_param`-flag to create **receive (“r” = input) or send-object (“s” = output)** in Plug Data. A digital input named `sw1` could be declared like this:
 
-<img width="181" alt="swiitch" src="https://github.com/user-attachments/assets/6a5e72a9-a059-46d4-bae0-819bc3d9858b" />
+<img width="270" alt="swiitch" src="https://github.com/user-attachments/assets/6a5e72a9-a059-46d4-bae0-819bc3d9858b" />
 
 Note how there is no difference to the analog input noticeable yet. **Pd will simply receive the input and route it to its destination.** However, we need to tell the Daisy Seed, **which input the parameter `sw1` needs to be read out from.** This happens again in our JSON-File as follows:
 
@@ -29,7 +29,7 @@ In this case we declared a `Switch`-component and connected it to Pin 0 (“D0�
 
 Now we can reverse to whole process and **create a digital outlet by using a send-object `s` **. The send-object is created similar to the receive-object. Here I created a send-object called `led1`.
 
-<img width="188" alt="led-pd" src="https://github.com/user-attachments/assets/2a81fae5-5702-4cc2-a802-47c5583427ef" />
+<img width="270" alt="led-pd" src="https://github.com/user-attachments/assets/2a81fae5-5702-4cc2-a802-47c5583427ef" />
 
 In our JSON-File, I declare `led1` as an Led-component  and connect it to Pin 12 (D12). The Daisy will then pass on the values from the patch as high or low voltage and send it out via the digital Pin 12.
 
@@ -39,7 +39,7 @@ In our JSON-File, I declare `led1` as an Led-component  and connect it to Pin 12
             "pin": 12
         },
 ```
-<img width="203" alt="led-json" src="https://github.com/user-attachments/assets/a584ffde-20b3-484f-bdfa-0b6057c1d38d" />
+<img width="270" alt="led-json" src="https://github.com/user-attachments/assets/a584ffde-20b3-484f-bdfa-0b6057c1d38d" />
 
 Now we can connect our switch and the LED components to our Daisy as seen in the following schematic. The analog and digital ground of the Daisy are connected via the outer rails and **to protect the LED, a 470Ω resistor is used.**
 
