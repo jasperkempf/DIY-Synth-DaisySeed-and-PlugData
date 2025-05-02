@@ -9,7 +9,7 @@ nav_order: 4
 
 To make our synthesizer **playable with external devices** such as keyboards or sequencers, we will implement a **MIDI-Input.** This can be realized via the `UART Rx`-Pin, which is **Pin 14** on the Daisy. In order to make it work, we need to c**onvert the analog input** – that our MIDI-Port receives, **into serial data.** This can be done by **using an optocoupler** – in this case we’ll use the 6N138, which is recommended in the official MIDI-Documentation. The MIDI-Documentation includes the following schematic:
 
-<img width="454" alt="midi-input-schematic" src="https://github.com/user-attachments/assets/d785da1d-aa7e-48a8-835e-e78809d0c248" />
+<img width="1080" alt="midi-input-schematic" src="https://github.com/user-attachments/assets/d785da1d-aa7e-48a8-835e-e78809d0c248" />
 
 The following **fritzing-schematic** shows, how I realized the connection on a breadboard to make the MIDI-input work. I used the following components:
 - 1x 5-Pin DIN-Jack
