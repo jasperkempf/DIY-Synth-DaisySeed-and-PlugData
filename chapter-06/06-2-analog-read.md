@@ -11,7 +11,7 @@ Let’s have a look at reading analog pin values from a potentiometer. In the ex
 
 In order to receive outputs from an analog pin, we’ll need to tell the Daisy Seed, which Pin the Parameter corresponds to. This needs to be declared in our custom JSON-File. The following screenshot shows an example and the respective code of how this can be configured for an input parameter called “p1” which will be read out from Pin 15, which is Pin A0 on the Daisy Seed. 
 
-<img width="540" alt="input" src="https://github.com/user-attachments/assets/eef02f10-5313-4866-95b4-d8485b0319b1" />
+<img width="270" alt="input" src="https://github.com/user-attachments/assets/eef02f10-5313-4866-95b4-d8485b0319b1" />
 
 ```
 "components": {
