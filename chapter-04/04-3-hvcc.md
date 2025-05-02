@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 04.3 - Heavy Compiler Collection (hvcc)
-parent: 04 - Tools
+title: 04.3 Heavy Compiler Collection (hvcc)
+parent: 04 Tools
 nav_order: 3
 ---
 
