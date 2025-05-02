@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 05 - Programming a Synthesizer
+title: 05 Programming a Synthesizer
 nav_order: 6
 has_children: true
 ---
 
-# 05 – Programming a Synthesizer
+# 05 Programming a Synthesizer
 
 In this chapter, we will look at the **possibilities of programming a heavy-compatible Synthesizer in Plug Data.** As providing a full guide on programming with Pd would go too far, i would like to share a few ressources which i've used myself to learn my way around Pd. 
 
