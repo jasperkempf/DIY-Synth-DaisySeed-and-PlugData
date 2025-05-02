@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 07 - Compiling and flashing a patch
-nav_order: 1
+nav_order: 8
 ---
 
 # 07 Compiling and flashing a patch
