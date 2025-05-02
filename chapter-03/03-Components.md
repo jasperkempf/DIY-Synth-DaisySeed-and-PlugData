@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 03 - Components
+title: 03 Components
 nav_order: 4
 ---
 
-# 03 – Components
+# 03 Components
 For this Project, we’re going to need a list of components to bring our Instrument to life.
 
 ## Daisy Seed Microcontroller
