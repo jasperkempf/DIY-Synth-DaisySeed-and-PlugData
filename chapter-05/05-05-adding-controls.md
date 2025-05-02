@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 05.5 - Adding Controls
-parent: 05 - Programming a Synthesizer
+title: 05.5 Adding Controls
+parent: 05 Programming a Synthesizer
 nav_order: 5
 ---
 
