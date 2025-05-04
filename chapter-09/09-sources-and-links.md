@@ -31,6 +31,7 @@ Community:
 **hvcc**
 - [getting started (hvcc docs)](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/01.introduction.md)
 - [Tips & Tricks and known limitations (hvcc docs) ](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/02.getting_started.md)
+- [Plug Data – Compiling Patches with heavy](https://plugdata.org/docs/book/CompilingPatches.html)
 - [Plug Data and Heavy - Wasted Audio YouTube Channel](https://www.youtube.com/@Wasted-Audio)
 - [Supported Vanilla Objects (hvcc docs)](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/09.supported_vanilla_objects.md)
 - [Unsupported Vanilla Objects (hvcc docs)](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/10.unsupported_vanilla_objects.md)
