@@ -12,13 +12,13 @@ Community:
 - [Daisy Forum](https://forum.electro-smith.com)
 - [Daisy Discord Server](https://discord.gg/ByHBnMtQTR)
 
-Platform:
+  Platform:
 - [Electrosmith](https://electro-smith.com)
 - [Daisy Support Site](https://daisy.audio)
 - [Daisy Web Programmer](https://flash.daisy.audio)
 - [Electrosmith YouTube Channel](https://www.youtube.com/@electrosmithco)
 
-Topics:
+  Topics:
 - [Daisy Pinout Table (libDaisy Docs)](https://github.com/electro-smith/libDaisy/blob/master/doc/Daisy_Seed_Rev4_Pinout.csv)
 - [Daisy Bootloader (libDaisy Docs)](https://github.com/electro-smith/libDaisy/blob/master/doc/md/_a7_Getting-Started-Daisy-Bootloader.md)
 
