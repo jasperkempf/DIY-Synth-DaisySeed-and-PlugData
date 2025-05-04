@@ -7,7 +7,21 @@ has_children: true
 
 # Sources and Links
 
-**Pure Data / Plug Data:**
+**Daisy Seed**
+Community:
+- [Daisy Forum](https://forum.electro-smith.com)
+- [Daisy Discord Server](https://discord.gg/ByHBnMtQTR)
+
+Platform:
+- [Electrosmith](https://electro-smith.com)
+- [Daisy Support Site](https://daisy.audio)
+- [Daisy Web Programmer](https://flash.daisy.audio)
+- [Electrosmith YouTube Channel](https://www.youtube.com/@electrosmithco)
+
+Topics:
+- [Daisy Pinout Table (libDaisy Docs)](https://github.com/electro-smith/libDaisy/blob/master/doc/Daisy_Seed_Rev4_Pinout.csv)
+- [Daisy Bootloader (libDaisy Docs)](https://github.com/electro-smith/libDaisy/blob/master/doc/md/_a7_Getting-Started-Daisy-Bootloader.md)
+
 
 **Pure Data / Plug Data:**
 - [QCGInteractiveMusic - Realtime Music and Sound with Pure Data Vanilla](https://youtu.be/SLx7kjuFheY?si=Al6hmUHhqnK8-pkg)
@@ -23,3 +37,5 @@ has_children: true
 - [Daisy Section in the hvcc docs](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/03.gen.daisy.md)
   
 **JSON-Files**
+[Custom JSON-Files for OOPSY](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/?h=json#components)
+
