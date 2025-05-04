@@ -37,5 +37,5 @@ Topics:
 - [Daisy Section in the hvcc docs](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/03.gen.daisy.md)
   
 **JSON-Files**
-[Custom JSON-Files for OOPSY](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/?h=json#components)
+- [Custom JSON-Files for OOPSY](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/?h=json#components)
 
