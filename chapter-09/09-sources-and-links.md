@@ -40,3 +40,5 @@ Community:
 **JSON-Files**
 - [Custom JSON-Files for OOPSY](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/?h=json#components)
 
+**Related Works**
+- [Pd to Daisy for beginners](https://jonwaterschoot.github.io/plugdata-daisy-simple/)
