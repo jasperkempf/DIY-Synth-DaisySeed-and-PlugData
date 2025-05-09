@@ -6,7 +6,7 @@ nav_order: 1
 
 # Welcome to this guide on building a Synthesizer with Daisy Seed and Plug Data
 
-Here you'll find an overview of all topics
+Let's build a custom synth with Daisy and Plug Data! This is an overview of all topics that we're going to look at.
 
 ## Overview
 
@@ -19,3 +19,5 @@ Here you'll find an overview of all topics
 - [07 Flashing a Patch](chapter-07/07-flashing-a-patch.md)
 - [08 Outlook](chapter-08/08-outlook.md)
 - [09 Sources & Links](chapter-09/09-sources-and-links.md)
+
+![IMG_2577](https://github.com/user-attachments/assets/ef85eaae-05d2-45e2-9817-bbd3358d6805)
