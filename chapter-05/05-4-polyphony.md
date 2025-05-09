@@ -30,3 +30,5 @@ To make our notes more natural-sounding than just a simple on-off signal, we can
 
 Using send and receive objects, the attack and release values are passed on to each `pd AR Envelope`-subpatch from the controls on the top right of the patch. This also keeps the patch a bit more organized and less crowded.
 
+COntinue with adding controls [here]({{site.baseurl}}/chapter-05/05-05-adding-controls)
+
