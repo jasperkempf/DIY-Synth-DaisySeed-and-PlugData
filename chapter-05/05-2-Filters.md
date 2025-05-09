@@ -19,4 +19,5 @@ Opening the subpatch _pd Filters_ gives us insight into the mechanism, which let
 
 <img width="901" alt="05-02-pd03-FiltersSubpatch" src="https://github.com/user-attachments/assets/1240613e-b047-4699-a10f-561f26be4ef0" />
 
-We can now choose different oscillators and different filter types via a bang signal. Let's have a look at implementing modulation into our synth, to expand its' sonic capabilities further. 
+We can now choose different oscillators and different filter types via a bang signal. Let's have a look at implementing modulation into our synth, to expand its' sonic capabilities further. Comntinue with the next chapter about modulation [here]({{site.baseurl}}/chapter-05/05-2-Modulation)
+
