@@ -69,7 +69,7 @@ As Plug Data does not have note-off events – which would be used to trigger th
 
  <img width="540" alt="05-03-EnvSubpatch" src="https://github.com/user-attachments/assets/ecccd481-b154-4e0c-82cf-34823330d283" />
 
-Continue with integrating Polyphony [here]({{site.baseurl}}/chapter-05/05-3-polyphony)!
+Continue with integrating Polyphony [here]({{site.baseurl}}/chapter-05/05-4-polyphony)!
 
 
 
