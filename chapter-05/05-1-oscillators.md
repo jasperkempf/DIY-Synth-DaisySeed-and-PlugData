@@ -31,4 +31,4 @@ The Modulo-Operator will give out **the remainder of dividing the input with the
 
 ![05-01-counter](https://github.com/user-attachments/assets/59a1d1f0-c0f6-4e5b-a75d-9eba8d5d08e8)
 
-**In the next chapter, we'll take a look at implementing filters.**
+Continue with the next chapter about filters [here]({{site.baseurl}}/chapter-05/05-1-Filters)
