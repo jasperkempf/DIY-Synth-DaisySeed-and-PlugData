@@ -14,7 +14,7 @@ Please Note that this course is aimed at beginners with little to no experience 
 
 What we'll learn in the following chapters:
 
-- [02 Installations](main/chapter-02/02-Installations.md): Gives an overview of the used software and links to the download the installer. 
+- [02 Installations](/chapter-02/02-Installations.md): Gives an overview of the used software and links to the download the installer. 
 - 03 Components: Overview of the used hardware-components.
 - 04 Tools: More detailed explanation of the Hardware and Software-Tools that we're going to use, their functionalitz and their purpose for the project.
 - 05 Programming a Synth: Here we'll have a detailed look at programming a heavy-compatible Synthesizer with Plug Data
