@@ -195,4 +195,4 @@ This is what my final JSON-File looked like, where i included 12 analog controls
 
 ```
 
-Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)
+Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
