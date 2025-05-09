@@ -37,7 +37,7 @@ This is what a simple JSON-File could look like to configure one potentiometer, 
 
 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
 
-As an example, this is what my final JSON-File looked like, where i included 12 analog controls, 6 Switches and 6 LEDs:
+This is what my final JSON-File looked like, where i included 12 analog controls, 6 Switches and 6 LEDs:
 
 ```
 {
