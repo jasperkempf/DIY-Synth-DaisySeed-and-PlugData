@@ -24,6 +24,7 @@ Secondly, Plug Data includes the **“compiled mode”**, which – when enabled
 
 <img width="540" alt="Bildschirmfoto 2025-04-22 um 16 16 12" src="https://github.com/user-attachments/assets/5318d019-bc78-45d5-b991-c55a9a1c7d43" />
 
-We will look at **building a Synthesizer with Plug Data** in Chapter 05
+We will look at **building a Synthesizer with Plug Data** in [Chapter 05]({{site.baseurl}}/chapter-05/programming-a-synth)
 
+Continue with the next chapter about the Daisy Seed [here]({{site.baseurl}}/chapter-04/04-2-daisy-seed)
 
