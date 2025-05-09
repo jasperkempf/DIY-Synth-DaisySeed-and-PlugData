@@ -20,3 +20,5 @@ What we'll learn in the following chapters:
 - 05 Programming a Synth: Here we'll have a detailed look at programming a heavy-compatible Synthesizer with Plug Data
 - 06 Daisy Hardware Configuration: Here we'll configure a Daisy board and equip it with necessary components such as controls, an Audio-Output and a MIDI-Input and how to configure them in a custom JSON-File.
 - 07 Flashing a patch: This chapter shows how to flash our heavy-compatible patch onto our Daisy.
+  
+![IMG_2577](https://github.com/user-attachments/assets/fb78d866-eece-4916-ae43-1edcf5d078cc)
