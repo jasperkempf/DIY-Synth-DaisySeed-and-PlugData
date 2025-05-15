@@ -26,5 +26,5 @@ Secondly, Plug Data includes the **“compiled mode”**, which – when enabled
 
 We will look at **building a Synthesizer with Plug Data** in [chapter 05]({{site.baseurl}}/chapter-05/05-programming-a-synth)
 
-Continue with the next chapter about the Daisy Seed [here]({{site.baseurl}}/chapter-04/04-2-daisy-seed)
+> Continue with the next chapter about the Daisy Seed [here]({{site.baseurl}}/chapter-04/04-2-daisy-seed)
 
