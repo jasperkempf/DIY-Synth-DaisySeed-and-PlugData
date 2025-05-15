@@ -41,13 +41,15 @@ Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-
 - Breadboard
 - Jumper wires
 - Resistors 470Ω (1x per used LED)
-- Resistors 220Ω
+
 
 **MIDI:**
 - 5-Pin DIN-Jack
 - 5-Pin Midi-cable
 - 6N138 Optocoupler
 - 1N914 diode
+- Resistors 220Ω
+- Resistors 280Ω
 
 **Audio :**
 - 6.3mm Stereo-Jack (alternatively 3.5mm mono, or stereo-jack)
