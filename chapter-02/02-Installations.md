@@ -17,8 +17,7 @@ First, we’ll need to make sure you have the right software installed, which we
 
 **This graphic shows how the Plug Data Patch and the JSON-File are connected and need to be flashed together:**
 
-<img width="1728" alt="Bildschirmfoto 2025-05-15 um 15 56 51" src="https://github.com/user-attachments/assets/eec669fa-54f1-40db-a1ce-61afb33fa538" />
-
+<img width="1080" alt="Bildschirmfoto 2025-05-15 um 15 56 51" src="https://github.com/user-attachments/assets/eec669fa-54f1-40db-a1ce-61afb33fa538" />
 
 
 
