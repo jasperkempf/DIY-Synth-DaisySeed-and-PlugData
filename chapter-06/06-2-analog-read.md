@@ -7,6 +7,8 @@ nav_order: 2
 
 # 06.2 Reading Analog Pin Values 
 
+> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+
 Let’s have a look at reading analog pin values from a potentiometer. In the example patch, you will see an example of what an object looks like that receives an external input. For Heavy-Parameters, we use the flag @hv_param to define a parameter. The letter “r” declares it as receive object (opposed to “s” which would create a send-object, thus an output) You can name the parameter anything you like, however I recommend using names that are short and easy to memorize. 
 
 In order to receive outputs from an analog pin, we’ll need to tell the Daisy Seed, which Pin the Parameter corresponds to. This needs to be declared in our custom JSON-File. The following screenshot shows an example and the respective code of how this can be configured for an input parameter called “p1” which will be read out from Pin 15, which is Pin A0 on the Daisy Seed. 
