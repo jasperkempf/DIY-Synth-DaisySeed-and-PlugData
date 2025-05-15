@@ -48,3 +48,4 @@ Now we can connect our switch and the LED components to our Daisy as seen in the
 
 Instead of a switch, you could use **a button or other electronic components, which will be connected similarly.** If you’re unsure how to connect your specific component, **you can always look up the schematic of your component to understand how it works.**
 
+Let's continue with the next chapter on [adding a MIDI Input]({{site.baseurl}}/chapter-06/06-4-midi-input)
