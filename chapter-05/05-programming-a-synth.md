@@ -23,4 +23,7 @@ Once you feel a bit familiar with the way Plug Data works, feel free to follow a
 
 > You can download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 
+[Ohne Titel 5.pdf](https://github.com/user-attachments/files/20229349/Ohne.Titel.5.pdf)
+
+
 
