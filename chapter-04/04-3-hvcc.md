@@ -36,3 +36,5 @@ Continue with the next chapter about JSON-Files [here]({{site.baseurl}}/chapter-
 
 
 ## Known limitations
+Read more about Tips and Tricks using the heavy compiler as well as known limitations [here]()
+
