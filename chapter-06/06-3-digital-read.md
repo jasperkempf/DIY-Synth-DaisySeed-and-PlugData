@@ -7,6 +7,8 @@ nav_order: 3
 
 # 06.3 Digital Pin Values 
 
+> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+
 Now that we know how to add analog controls, **let’s look at reading and sending digital signals.** As opposed to analog inputs – which can read out “floating” analog values and convert them to float-numbers between 0 and 1 – **A digital Input only knows two states: High and low voltage.** Depending which one is the case, this corresponds to a **digital read-out value of 1 (“high”) or 0 (“low”).**
 
 In this example **we will install a simple switch (“on/off-button”)** and use it to **turn an LED on or off**, which is connected to a second digital Pin.
