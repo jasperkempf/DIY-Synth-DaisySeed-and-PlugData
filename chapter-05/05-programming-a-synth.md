@@ -7,6 +7,8 @@ has_children: true
 
 # 05 Programming a Synthesizer
 
+> You can download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
+
 In this chapter, we will look at the **possibilities of programming a heavy-compatible Synthesizer in Plug Data.** As providing a full guide on programming with Pd would go too far, i would like to share a few ressources which i've used myself to learn my way around Pd. 
 
 Please keep in mind that those videos are **not necessarily aimed at the use of Plug Data with heavy-compatibility in focus**, but are a good way of getting to know the program and the syntax first.
@@ -21,8 +23,7 @@ Please keep in mind that those videos are **not necessarily aimed at the use of 
 
 Once you feel a bit familiar with the way Plug Data works, feel free to follow along with the contents of this chapter below, where we will focus on **programming a synth compatible with a Daisy Seed Microcontroller**.
 
-> You can download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
-
+**This graphic shows how the Plug Data Patch and the JSON-File are connected and need to flashed together:**
 <img width="1080" alt="Bildschirmfoto 2025-05-15 um 15 50 26" src="https://github.com/user-attachments/assets/b0aa2f57-6208-4add-8673-512beead72be" />
 
 
