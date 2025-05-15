@@ -28,7 +28,7 @@ Thirdly we will need some specific components to install **a MIDI-Port**. In thi
 Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-Jack** and the fitting cable for this project. You could also use a **3,5mm stereo- or mono-jack**, depending on your project. If you plan installing an Audio-Input – for example for building an effect-pedal– **you will need to install a second jack for that.**
 ![components-04](https://github.com/user-attachments/assets/028e0d04-d3e7-42ed-bdc7-ce1f5d540a0d)
 
-## List of components:
+## List of components used in this project:
 
 **Microcontroller**:
 - Daisy Seed Microcontroller
