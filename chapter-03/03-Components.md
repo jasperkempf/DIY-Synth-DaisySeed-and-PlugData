@@ -12,17 +12,21 @@ Firstly and most importantly we need the heart and brain of our instrument – *
 We will dive deeper into the capabilities of this microcontroller in this chapter (link). To power the microcontroller and to load our patch onto it, we need a **micro-usb cable**. Make sure **it can transmit data**, as some micro-usb cables are only for charging devices and not for transmitting data. (Note that this cable is not included with the Daisy Seed upon delivery!)
 <img width="540" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/d45c6ab1-5106-4fff-8385-8c3faf9b1238" />
 
-## Control elements (switch, Potentiometers)
+## Control elements (Switches, Potentiometers)
 To control parameters of our instrument, we will be using **potentiometers** **and switches**. Additionally, we can use **LEDs** to indicate different states of our Instrument or to give some sort of visual feedback when changing parameters. These componenets are usually **quite affordable and easy to install**, which we will cover in this chapter (link).
+![components-01](https://github.com/user-attachments/assets/28208144-f4b7-4db9-8ef3-3caf6e7b2eb0)
 
 ## Prototyping electronics (Breadboard, Jumper wires, resistors)
 Furthermore, building our first prototype will require some additional parts such as a **breadboard**, **jumper wires and some resistors** with different impedances to build our circuit and to make sure certain components – such as our LEDs – are **protected from damage**.
+![components-02](https://github.com/user-attachments/assets/99074a28-9f5d-4aa5-ba31-fbdaf0c2964e)
 
 ## MIDI Components 
 Thirdly we will need some specific components to install **a MIDI-Port**. In this Project, we will learn how to install a **5-Pin MIDI-Input** to our Daisy Seed, so we require a 5-Pin DIN-Jack, as well as a 5-Pin Midi-cable for that. To transform our incoming Midi-signal into serial-data, we will need a **6N138 Optocoupler** and a simple **1N914 diode** to protect our circuit. 
+![components-03](https://github.com/user-attachments/assets/5162c29c-d2ed-4fd8-b009-e4b5d7ccaecf)
 
 ## Audio-Jack
 Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-Jack** and the fitting cable for this project. You could also use a **3,5mm stereo- or mono-jack**, depending on your project. If you plan installing an Audio-Input – for example for building an effect-pedal– **you will need to install a second jack for that.**
+![components-04](https://github.com/user-attachments/assets/028e0d04-d3e7-42ed-bdc7-ce1f5d540a0d)
 
 ## List of components:
 
@@ -37,15 +41,14 @@ Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-
 - Breadboard
 - Jumper wires
 - Resistors 470Ω (1x per used LED)
-
+- Resistors 220Ω
 
 **MIDI:**
 - 5-Pin DIN-Jack
 - 5-Pin Midi-cable
 - 6N138 Optocoupler
 - 1N914 diode
-- 
 
 **Audio :**
-- 6,3mm Stereo-Jack
-- 6,3mm Stereo-cable
+- 6.3mm Stereo-Jack (alternatively 3.5mm mono, or stereo-jack)
+- 6.3mm Stereo-cable (3.5mm mono/ stereo cable)
