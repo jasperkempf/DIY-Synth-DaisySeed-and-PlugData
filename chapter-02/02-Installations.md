@@ -1,4 +1,4 @@
----
+<img width="1728" alt="Bildschirmfoto 2025-05-15 um 15 50 26" src="https://github.com/user-attachments/assets/18b71993-ad4a-4156-b4af-22662840dceb" />---
 layout: default
 title: 02 Installations
 nav_order: 3
@@ -17,6 +17,11 @@ First, we’ll need to make sure you have the right software installed, which we
 -	[Visual Studio Code](https://code.visualstudio.com) is a coding environment, which allows for a very comfortable coding. We won’t use it too much, as our main programming will take place in Plug Data, but it is an important tool to create our custom JSON-Files (link) which we need so the Daisy Seed will know how to handle Input and Output Signals which we configure in our Plug Data patch. Don’t worry, we will learn more about JSON-Files in this chapter (link).
 
 ![Bildschirmfoto 2025-05-09 um 14 05 31](https://github.com/user-attachments/assets/0bd3e37a-4817-4de7-842f-65e4a9221b5f)
+
+**This graphic shows how the Plug Data Patch and the JSON-File are connected and need to be flashed together:**
+
+<img width="1728" alt="Bildschirmfoto 2025-05-15 um 15 56 51" src="https://github.com/user-attachments/assets/eec669fa-54f1-40db-a1ce-61afb33fa538" />
+
 
 
 
