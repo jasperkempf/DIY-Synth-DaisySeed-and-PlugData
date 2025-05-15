@@ -7,6 +7,8 @@ nav_order: 4
 
 # 05.4 - Polyphony 
 
+> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+
 ### Simple Polyphony (Pd09-Polyphony.pd)
 
 To make our synthesizer capable of playing multiple notes at once, we will have a look at implementing Polyphony. The example patch _Pd09-Polyphony.pd_ shows how to implement 4 Voices of Polyphony.
