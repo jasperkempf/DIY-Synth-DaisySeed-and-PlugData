@@ -32,3 +32,5 @@ And that’s already it! If you configured the parameter correctly in your JSON-
 The analog input values are converted to digital values in a range of 0 to 1. If you want to expand that range, just add a simple multiplier to the value like so:
 
 <img width="540" alt="example" src="https://github.com/user-attachments/assets/b179f544-0d93-4715-8f80-8afd1e64b37f" />
+
+Let's continue with the next chapter on [reading digital pin values]({{site.baseurl}}/chapter-06/06-3-digital-read)!
