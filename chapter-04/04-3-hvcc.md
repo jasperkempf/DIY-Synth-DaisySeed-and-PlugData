@@ -31,10 +31,9 @@ In order to not have to constantly look at the list of supported objects, to kno
 When activated, the **object manager will only show heavy-supported objects.** While we can still manually add other objects to our patch, **unsupported ones are marked by a orange outline.** By activating compiled mode, **we can patch freely with the available objects** and **don't need to worry** about compatibility with hvcc.
 
 We will look at the detailed steps of compiling and flashing a patch with heavy in <a href="{{ site.baseurl }}/chapter-07/07-flashing-a-patch">chapter 07 →</a>
-Continue with the next chapter about JSON-Files [here]({{site.baseurl}}/chapter-04/04-4-json-file)
-
-
 
 ## Known limitations
 Read more about Tips and Tricks using the heavy compiler as well as known limitations [here](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/02.getting_started.md)
 
+
+Continue with the next chapter about JSON-Files [here]({{site.baseurl}}/chapter-04/04-4-json-file)
