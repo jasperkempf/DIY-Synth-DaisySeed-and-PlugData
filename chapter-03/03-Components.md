@@ -55,5 +55,7 @@ Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-
 - 6.3mm Stereo-Jack (alternatively 3.5mm mono, or stereo-jack)
 - 6.3mm Stereo-cable (3.5mm mono/ stereo cable)
 
+**Additional Tools :**
+- Soldering Station
 
 Continue with Chapter 04 [here]({{site.baseurl}}/chapter-04/04-Tools)!
