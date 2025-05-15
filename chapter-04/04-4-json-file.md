@@ -11,7 +11,7 @@ A JSON-File (Javascript object notation) is a text-based code-file to store and 
 
 We will configure all used potentiometers, switches, leds as well as the number of our audio-channels and the MIDI-functionalities in this file. To upload it to our Daisy, we can select the file in the compile-window inside Plug Data when flashing our patch.
 
-This is what a simple JSON-File could look like to configure one potentiometer, MIDI and stereo-audio (JsonExample-Controls-MIDI-LEDS.json).
+This is what a simple JSON-File could look like to configure one potentiometer, MIDI and stereo-audio.
 
 ```
 {
@@ -37,7 +37,7 @@ This is what a simple JSON-File could look like to configure one potentiometer, 
 
 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
 
-This is what my final JSON-File looked like, where i included 12 analog controls, 6 Switches and 6 LEDs:
+This is what my final JSON-File looked like, where i included 12 analog controls, 6 Switches and 6 LEDs (JsonExample-Controls-MIDI-LEDS.json):
 
 ```
 {
