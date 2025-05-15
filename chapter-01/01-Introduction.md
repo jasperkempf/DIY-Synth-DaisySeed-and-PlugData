@@ -12,7 +12,7 @@ I am happy to welcome you to this page, where we'll have a look at programming a
 
 Please Note that this course is aimed at beginners with little to no experience with coding and microcontrollers. I hope you’ll find some interesting information for your project!
 
-What we'll learn in the following chapters:
+**What we'll learn in the following chapters:**
 
 - [02 Installations]({{site.baseurl}}/chapter-02/02-Installations): Gives an overview of the used software and links to the download the installer. 
 - [03 Components]({{site.baseurl}}/chapter-03/03-Components): Overview of the used hardware-components.
