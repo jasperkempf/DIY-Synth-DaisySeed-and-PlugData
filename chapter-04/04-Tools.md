@@ -7,4 +7,4 @@ has_children: true
 
 # 04 Tools
 
-
+In this chapter, we will analyze the capabilities of the chosen Tools.
