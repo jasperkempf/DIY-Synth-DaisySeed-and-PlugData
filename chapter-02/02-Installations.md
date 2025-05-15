@@ -1,4 +1,4 @@
-<img width="1728" alt="Bildschirmfoto 2025-05-15 um 15 50 26" src="https://github.com/user-attachments/assets/18b71993-ad4a-4156-b4af-22662840dceb" />---
+---
 layout: default
 title: 02 Installations
 nav_order: 3
