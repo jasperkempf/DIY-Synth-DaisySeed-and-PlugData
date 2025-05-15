@@ -36,4 +36,4 @@ We will look at the detailed steps of compiling and flashing a patch with heavy 
 Read more about Tips and Tricks using the heavy compiler as well as known limitations [here](https://github.com/Wasted-Audio/hvcc/blob/develop/docs/02.getting_started.md)
 
 
-Continue with the next chapter about JSON-Files [here]({{site.baseurl}}/chapter-04/04-4-json-file)
+> Continue with the next chapter about JSON-Files [here]({{site.baseurl}}/chapter-04/04-4-json-file)
