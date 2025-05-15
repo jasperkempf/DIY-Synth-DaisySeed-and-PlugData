@@ -9,7 +9,7 @@ nav_order: 1
 
 ### The example patches for this chapter are _Pd01-oscillators_ and _Pd02-counter_. 
 
-You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/pd-examples.zip" download>here</a>
+You can download all example patches <a href="{{ site.baseurl }}/assets/pd-patches/diy-synth-files.zip" download>here</a>
 
 ## Oscillators
 
