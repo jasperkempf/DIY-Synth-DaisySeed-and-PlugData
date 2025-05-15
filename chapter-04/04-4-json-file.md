@@ -11,7 +11,7 @@ A JSON-File (Javascript object notation) is a text-based code-file to store and 
 
 We will configure all used potentiometers, switches, leds as well as the number of our audio-channels and the MIDI-functionalities in this file. To upload it to our Daisy, we can select the file in the compile-window inside Plug Data when flashing our patch.
 
-This is what a simple JSON-File could look like to configure one potentiometer, MIDI and stereo-audio.
+This is what a simple JSON-File could look like to configure one potentiometer, MIDI and stereo-audio (JsonExample-Controls-MIDI-LEDS.json).
 
 ```
 {
@@ -195,4 +195,4 @@ This is what my final JSON-File looked like, where i included 12 analog controls
 
 ```
 
-Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
+> Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
