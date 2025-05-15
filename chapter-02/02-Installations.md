@@ -22,7 +22,4 @@ First, we’ll need to make sure you have the right software installed, which we
 
 
 
-<div style="border: 2px solid #007acc; padding: 10px; border-radius: 5px; background-color: #f0f8ff;">
-  <strong> Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components! </strong> 
-</div>
-
+> Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components)
