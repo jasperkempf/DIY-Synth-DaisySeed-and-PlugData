@@ -39,4 +39,4 @@ To ensure a **broad connectivity with many devices,** I will limit the usage of 
 
 <img width="1080" alt="Bildschirmfoto 2025-05-15 um 14 53 40" src="https://github.com/user-attachments/assets/9a17166b-3363-4e8b-802a-e0e974dbd09b" />
 
-To flash a patch onto the Daisy and test the functionality of your Soft- and Hardware, continue with [flashing a patch]({{site.baseurl}}/chapter-07/07-flashing-a-patch).
+To flash a patch onto the Daisy and test the functionality of your soft- and hardware, continue with [flashing a patch]({{site.baseurl}}/chapter-07/07-flashing-a-patch).
