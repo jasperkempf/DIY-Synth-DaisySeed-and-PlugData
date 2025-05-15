@@ -7,6 +7,8 @@ nav_order: 1
 
 # 06.1 Audio IO
 
+> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+
 Installing and Audio-In and Output is quite simple with the Daisy. We will use the `Pins 18` and `19` (Audio Out 1&2) for installing a stereo output jack. Vice versa, the `Pins 16 & 17` can be used to install a **stereo input**. The following schematic shows **two variants of stereo jacks** and how they are connected. Of course you would **only need one of the two jacks for a stereo output** (Note that the jacks need to be **stereo components**). If you want to install a mono jack, simply **connect only one of the output- (or input) Pins** to the Tip-Connector and the Sleeve-Connector of the jack to ground.
 
 ![daisy-output](https://github.com/user-attachments/assets/df8aa7e4-3f6c-4473-8cf3-afe06d2cd405)
