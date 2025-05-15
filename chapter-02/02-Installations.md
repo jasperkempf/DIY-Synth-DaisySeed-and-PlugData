@@ -20,5 +20,9 @@ First, we’ll need to make sure you have the right software installed, which we
 ![Bildschirmfoto 2025-05-09 um 14 05 31](https://github.com/user-attachments/assets/0bd3e37a-4817-4de7-842f-65e4a9221b5f)
 > Visual Studio Code interface
 
-> Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components)!
+
+
+<div style="border: 2px solid #007acc; padding: 10px; border-radius: 5px; background-color: #f0f8ff;">
+  <strong> Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components! </strong> 
+</div>
 
