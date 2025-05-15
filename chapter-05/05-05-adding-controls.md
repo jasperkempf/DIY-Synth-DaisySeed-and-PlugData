@@ -7,6 +7,8 @@ nav_order: 5
 
 # 05.5 - Adding Controls
 
+> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+
 As we ultimately want to control our Synthesizer with hardware components via our microcontroller, we need to configure the Plug Data patch accordingly. While we're looking at setting up controls on the hardware side in chapter 06, i want to cover the software aspects in this chapter. Here i want to give a few tips on what to look out for, especially when using analog controls like potentiometers. 
 
 ## Inputs and Outputs
