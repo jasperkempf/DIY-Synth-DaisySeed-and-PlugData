@@ -39,5 +39,6 @@ Because of the slight variation of input voltage, which is received through the 
 
 <img width="471" alt="Bildschirmfoto 2025-05-02 um 11 58 06" src="https://github.com/user-attachments/assets/821c96bf-20a6-46ff-bf41-aa5adb8dc3fb" />
 
+Continue with Chapter 06 [here]({{site.baseurl}}/chapter-06/06-Daisy-Hardware-Configuration)! 
 
 
