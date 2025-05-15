@@ -29,4 +29,4 @@ Note that **one analog pin** can only be used for a **single control with a simp
 
 The Pins referenced as **“peripheral GPIO”** (violet color) can be used to communicate with external devices and to send or receive serial data. In this project, we will only make use of the **UART4 Rx Input** (Pin 12 / D11) **to receive our MIDI-Input** from an outside source. However, if you plan on extending your project and want to **incorporate a display, SD-Card or other features**, I recommend reading more about the Daisy Pin IO [here](https://daisy.audio/hardware/Seed/). Note that not all features might be compatible with heavy and Plug Data.
 
-Continue with the next chapter about the heavy compiler [here]({{site.baseurl}}/chapter-04/04-3-hvcc)!
+> Continue with the next chapter about the heavy compiler [here]({{site.baseurl}}/chapter-04/04-3-hvcc)!
