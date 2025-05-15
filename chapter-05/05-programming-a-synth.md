@@ -23,6 +23,9 @@ Please keep in mind that those videos are **not necessarily aimed at the use of 
 
 Once you feel a bit familiar with the way Plug Data works, feel free to follow along with the contents of this chapter below, where we will focus on **programming a synth compatible with a Daisy Seed Microcontroller**.
 
+**This graphic shows how the Plug Data Patch and the JSON-File are connected and need to be flashed together:**
+
+<img width="1080" alt="Bildschirmfoto 2025-05-15 um 15 50 26" src="https://github.com/user-attachments/assets/b0aa2f57-6208-4add-8673-512beead72be" />
 
 
 
