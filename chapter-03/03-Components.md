@@ -71,4 +71,4 @@ For this project, I’ve chosen a **6.3mm (¼ inch) stereo jack along with a mat
 - Soldering Station
 
 
-Continue with Chapter 04 [here]({{site.baseurl}}/chapter-04/04-Tools)!
+## → Continue with Chapter 04 [here]({{site.baseurl}}/chapter-04/04-Tools)!
