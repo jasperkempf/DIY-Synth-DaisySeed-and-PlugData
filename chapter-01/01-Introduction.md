@@ -8,11 +8,10 @@ nav_order: 2
 
 Hello!
 
-Welcome to this page! Here, we’ll explore how to program and build a basic synthesizer using Plug Data and the Daisy Seed microcontroller.
-You’re free to follow along step by step — or jump straight to the chapter that interests you most.
+Welcome to this page! Here, we will explore how to program and build a basic synthesizer using Plug Data and the Daisy Seed microcontroller.
+Feel free to follow along step by step — or jump straight to the chapter that interests you most.
 
-Note: This course is designed for beginners with little to no prior experience in coding or working with microcontrollers. I hope you’ll discover useful insights for your own project!
-What you'll learn in the upcoming chapters:
+Note: This course is designed for beginners with little to no prior experience in coding or working with microcontrollers. I hope you will discover useful insights for your own project!
 
 **What we will learn in the following chapters:**
 
