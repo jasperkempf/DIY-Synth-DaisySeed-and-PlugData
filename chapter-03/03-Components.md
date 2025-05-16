@@ -8,27 +8,39 @@ nav_order: 4
 For this Project, we’re going to need a list of components to bring our Instrument to life.
 
 ## Daisy Seed Microcontroller
-Firstly and most importantly we need the heart and brain of our instrument – **the Daisy Seed Microcontroller**. This is a microcontroller which has been designed specifically for the creation of **embedded audio projects**. It is quite affordable and programmable with a variety of programming languages such as **C++, Max gen~** and **Pure Data / Plug Data**. You can buy the Daisy Seed in the official webshop [here](https://electro-smith.com/products/daisy-seed) or try to find a local electronics dealer in your area which might have them in stock (which could potentially minimize shipping costs and delivery times). 
-We will dive deeper into the capabilities of this microcontroller in this chapter (link). To power the microcontroller and to load our patch onto it, we need a **micro-usb cable**. Make sure **it can transmit data**, as some micro-usb cables are only for charging devices and not for transmitting data. (Note that this cable is not included with the Daisy Seed upon delivery!)
+
+First and foremost, we need the heart and brain of our instrument — **the Daisy Seed microcontroller.**
+This microcontroller was designed specifically for creating **embedded audio projects**. It’s relatively affordable and can be programmed using a variety of languages, including **C++, Max gen~, and Pure Data / Plug Data.** You can purchase the Daisy Seed from the official webshop [here](https://electro-smith.com/products/daisy-seed), or check with local electronics retailers in your area — they may have it in stock, which could help reduce shipping costs and delivery times.
+
+> We’ll take a closer look at the **features and capabilities of this microcontroller** later in [this Chapter]({{site.baseurl}}/chapter-04/04-2-daisy-seed).
+
+To power the Daisy Seed and upload your patch to it, **you will need a micro-USB cable.** Make sure the cable supports **data transfer,** as some micro-USB cables are designed for charging only and cannot transmit data.
+
+⚠️ Note: A compatible USB cable is **not included with the Daisy Seed** when you order it!
+
 <img width="540" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/d45c6ab1-5106-4fff-8385-8c3faf9b1238" />
 
 ## Control elements (Switches, Potentiometers)
-To control parameters of our instrument, we will be using **potentiometers** **and switches**. Additionally, we can use **LEDs** to indicate different states of our Instrument or to give some sort of visual feedback when changing parameters. These componenets are usually **quite affordable and easy to install**, which we will cover in this chapter (link).
+To control various parameters of our instrument, we will use **potentiometers and switches**. In addition, LEDs can be added to indicate **different states of the instrument** or provide visual feedback when parameters are adjusted. These components are generally **affordable and easy to install**. We will cover how to work with them in more detail later in [this Chapter]({{site.baseurl}}/chapter-06/06-Daisy-Hardware-Configuration).
+
 ![components-01](https://github.com/user-attachments/assets/28208144-f4b7-4db9-8ef3-3caf6e7b2eb0)
 
 ## Prototyping electronics (Breadboard, Jumper wires, resistors)
-Furthermore, building our first prototype will require some additional parts such as a **breadboard**, **jumper wires and some resistors** with different impedances to build our circuit and to make sure certain components – such as our LEDs – are **protected from damage**.
+
+To build our first prototype, we’ll also need a few essential components: **a breadboard, jumper wires, and resistors of various values.** These parts are used to **assemble the circuit** and ensure that certain components — like LEDs — are **properly protected from damage**.
+
 ![components-02](https://github.com/user-attachments/assets/99074a28-9f5d-4aa5-ba31-fbdaf0c2964e)
 
 ## MIDI Components 
-Thirdly we will need some specific components to install **a MIDI-Port**. In this Project, we will learn how to install a **5-Pin MIDI-Input** to our Daisy Seed, so we require a 5-Pin DIN-Jack, as well as a 5-Pin Midi-cable for that. To transform our incoming Midi-signal into serial-data, we will need a **6N138 Optocoupler** and a simple **1N914 diode** to protect our circuit. 
+Thirdly we will need some specific components to install **a MIDI-Port**. In this Project, we will learn how to install a **5-Pin MIDI-Input** to our Daisy Seed, so we require a 5-Pin DIN-Jack, as well as a 5-Pin Midi-cable for that. To transform our incoming MIDI-signal into serial-data, we will need a **6N138 Optocoupler** and a simple **1N914 diode** to protect our circuit. 
 ![components-03](https://github.com/user-attachments/assets/5162c29c-d2ed-4fd8-b009-e4b5d7ccaecf)
 
 ## Audio-Jack
-Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-Jack** and the fitting cable for this project. You could also use a **3,5mm stereo- or mono-jack**, depending on your project. If you plan installing an Audio-Input – for example for building an effect-pedal– **you will need to install a second jack for that.**
+For this project, I’ve chosen a **6.3mm (¼ inch) stereo jack along with a matching cable.** However, you can also use a 3.5mm stereo or mono jack, depending on the needs of your setup. If you plan to include an audio input — for example, when building an **effect pedal** — you’ll need to install a second jack to handle that connection.
 ![components-04](https://github.com/user-attachments/assets/028e0d04-d3e7-42ed-bdc7-ce1f5d540a0d)
 
-## List of components used in this project:
+
+## 📝 List of components used in this project:
 
 **Microcontroller**:
 - Daisy Seed Microcontroller
@@ -57,5 +69,6 @@ Last but not least: **We need an Audio-output!** I have chosen a **6,3mm Stereo-
 
 **Additional Tools :**
 - Soldering Station
+
 
 Continue with Chapter 04 [here]({{site.baseurl}}/chapter-04/04-Tools)!
