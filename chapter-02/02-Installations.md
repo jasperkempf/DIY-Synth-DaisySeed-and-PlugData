@@ -20,5 +20,4 @@ It is based on **Pure Data Vanilla**, a visual programming language designed for
 <img width="1080" alt="Bildschirmfoto 2025-05-15 um 15 56 51" src="https://github.com/user-attachments/assets/eec669fa-54f1-40db-a1ce-61afb33fa538" />
 
 
-
-> Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components)
+## → Continue with the next chapter about required components [here]({{site.baseurl}}/chapter-03/03-Components)!
