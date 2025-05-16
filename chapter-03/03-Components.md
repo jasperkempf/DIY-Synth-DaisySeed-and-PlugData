@@ -18,7 +18,8 @@ To power the Daisy Seed and upload your patch to it, **you will need a micro-USB
 
 ⚠️ Note: A compatible USB cable is **not included with the Daisy Seed** when you order it!
 
-<img width="1080" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/d45c6ab1-5106-4fff-8385-8c3faf9b1238" />
+<img width="1080" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/f3291f92-d62e-4e8c-9b30-425e941ea7a2" />
+
 
 ## Control elements (Switches, Potentiometers)
 To control various parameters of our instrument, we will use **potentiometers and switches**. In addition, LEDs can be added to indicate **different states of the instrument** or provide visual feedback when parameters are adjusted. These components are generally **affordable and easy to install**. We will cover **how to work with them in more detail** later in [this Chapter]({{site.baseurl}}/chapter-06/06-Daisy-Hardware-Configuration).
