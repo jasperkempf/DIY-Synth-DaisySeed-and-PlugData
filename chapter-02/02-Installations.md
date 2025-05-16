@@ -10,7 +10,10 @@ nav_order: 3
 
 First, we’ll need to make sure you have the right software installed, which we will be needing for our project. We will mainly be needing the following two programs:
 
--	[Plug Data](https://plugdata.org) will be our **main programming environment for creating our instrument**. It is based on Pure Data Vanilla, which is a visual programming language for audio applications and more. Plug Data allows for a more comfortable patching than the original Pure Data, which is one of the reasons I chose to use it. Another (and maybe even the more important) reason is that P**lug Data includes the heavy-compiler**. We will learn more about the heavy compiler in [another chapter]({{site.baseurl}}/chapter-04/04-3-hvcc), but this will be the most **important tool to flash our program onto the microcontroller.** 
+-	[Plug Data](https://plugdata.org) will serve as our primary programming environment for building the instrument.
+It is based on Pure Data Vanilla, a visual programming language designed for audio and multimedia applications. Plug Data provides a more user-friendly patching experience than the original Pure Data, which is one of the main reasons I chose it.
+
+Another — perhaps even more important — reason is that Plug Data includes the Heavy Compiler. We’ll explore this tool in more detail in [another chapter]({{site.baseurl}}/chapter-04/04-3-hvcc), but for now, just know that it’s essential for compiling and flashing our program onto the microcontroller.
 
 -	[Visual Studio Code](https://code.visualstudio.com) is a **coding environment,** which allows for a very comfortable coding. We won’t use it too much, as our **main programming will take place in Plug Data**, but it is an important tool to create our **custom JSON-Files** which we need so the Daisy Seed will know **how to handle Input and Output Signals** configured in our Plug Data patch. Don’t worry, we will learn more about JSON-Files in [this chapter]({{site.baseurl}}/chapter-04/04-4-json-file).
 
