@@ -4,9 +4,8 @@ title: Start
 nav_exclude: true
 ---
 
-# Welcome to this guide on building a Synthesizer with Daisy Seed and Plug Data
+# 🌼 Welcome to this guide on building a Synthesizer with Daisy Seed and Plug Data!
 
-Let's build a custom synth with Daisy and Plug Data! This is an overview of all topics that we're going to look at.
 
 ## Overview
 
