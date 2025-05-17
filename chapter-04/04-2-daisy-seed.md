@@ -5,7 +5,7 @@ parent: 04 Tools
 nav_order: 2
 ---
 
-# 04.2 - Daisy Seed
+# 04.2 Daisy Seed
 
 ## 🌼 Daisy Seed
 
