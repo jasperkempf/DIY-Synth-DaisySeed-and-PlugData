@@ -7,9 +7,9 @@ nav_order: 1
 
 # 05.1 - Oscillators
 
-### The example patches for this chapter are _Pd01-oscillators_ and _Pd02-counter_. 
+### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 
-> You can download all example patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a>
+> 👾 The example patches for this chapter are `_Pd01-oscillators_` and `_Pd02-counter_`. 
 
 ## Oscillators
 
