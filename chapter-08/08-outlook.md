@@ -15,7 +15,8 @@ nav_order: 9
 # 🌱 Sources and Links
 
 **Daisy Seed**
-Community:
+
+  Community:
 - [Daisy Forum](https://forum.electro-smith.com)
 - [Daisy Discord Server](https://discord.gg/ByHBnMtQTR)
 
