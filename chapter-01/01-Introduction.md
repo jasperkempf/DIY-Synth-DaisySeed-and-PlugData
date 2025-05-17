@@ -15,7 +15,7 @@ Feel free to follow along step by step — or jump straight to the chapter that 
 
 ## What we will learn in the following chapters:
 
-- [**02 Installations**]({{site.baseurl}}/chapter-02/02-Installations): Overview of the used software and links to download. 
+- [**02 Installations**]({{site.baseurl}}/chapter-02/02-Installations): Overview of the used software.
 - [**03 Components**]({{site.baseurl}}/chapter-03/03-Components): Overview of the used hardware-components.
 - [**04 Tools**]({{site.baseurl}}/chapter-04/04-Tools): Description of the Hardware and Software-Tools that we're going to use.
 - [**05 Programming a Synth**]({{site.baseurl}}/chapter-05/05-programming-a-synth): Programming a heavy-compatible Synthesizer with Plug Data
