@@ -5,7 +5,7 @@ parent: 05 Programming a Synthesizer
 nav_order: 4
 ---
 
-# 05.4 - Polyphony 
+# 05.4 Polyphony 
 
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 > 📖 The example patch for this chapter are `_Pd09-Polyphony_`, `_Pd10-Poly-Envelopes`.
