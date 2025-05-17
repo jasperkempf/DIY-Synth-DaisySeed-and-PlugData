@@ -34,6 +34,6 @@ In our JSON-File, **we declare two audio channels** with the following code:
     },
 ```
 
-Now we can run a Pd-Patch on the Daisy that will output the signal from the patch via the Output-Pins of the Microcontroller.
+> ✅ Now we can run a Pd-Patch on the Daisy that will **output the signal from the patch via the Output-Pins** of the Microcontroller.
 
-Let's continue with the next chapter on [reading analog pin values]({{site.baseurl}}/chapter-06/06-2-analog-read)
+## → Continue with the next chapter on [reading analog pin values]({{site.baseurl}}/chapter-06/06-2-analog-read)!
