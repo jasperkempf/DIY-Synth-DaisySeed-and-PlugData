@@ -10,7 +10,7 @@ nav_order: 2
 > 📖 The example patch for this chapter is `_Pd03-Filter-Examples_`.
 
 ## 🧪 Filters
-Now that we've learned how to program heavy-compatible oscillators, we will add a filter to our synthesizer. Here we can also use objects from the heavilib-Library. It comes with the `hv.filter~ `-object, **which can be configured for one of six different filtercurves** – allpass, lowpass, highpass, bandpass1, bandpass2 and notch. 
+Now that we've learned how to program heavy-compatible oscillators, we will add a filter to our synthesizer. Here we can also use objects from the heavylib-Library. It comes with the `hv.filter~ `-object, **which can be configured for one of six different filtercurves** – allpass, lowpass, highpass, bandpass1, bandpass2 and notch. 
 
 > The example patch _pd03-Filter-Examples.pd_ shows how i implemented **four of those filter types**. I have used the same custom `counter`-mechanism from the previous chapter to **select different filter types** with a simple `bang`. 
 
