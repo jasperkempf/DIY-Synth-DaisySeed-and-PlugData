@@ -5,7 +5,7 @@ parent: 04 Tools
 nav_order: 4
 ---
 
-# 04.4 - JSON File
+# 04.4 JSON File
 
 ## 💿 JSON
 A JSON-File (Javascript object notation) is a **text-based code-file to store and transmit data.** It is relatively simple and easy to read. We will use it, to tell the Daisy Seed, **which Inputs and Outputs** – which we configured in our Plug Data Patch – **correspond to which pins of the microcontroller**. The JSON-File will function as the **connection between hardware and software** and is crucial for our Instrument to work properly. 
