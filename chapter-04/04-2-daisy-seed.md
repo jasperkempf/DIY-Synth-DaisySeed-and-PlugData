@@ -9,7 +9,7 @@ nav_order: 2
 
 ## Daisy Seed
 
-Let’s dive deeper into the heart of our project **– the Daisy Seed Microcontroller**. As mentioned before, it has been designed specifically for the creation of **embedded audio projects** and includes a bunch of features right from the start, that make our life a bit easier when building a custom synthesizer. If you’ve never worked with a microcontroller before, you can imagine it as a controller **with a number of inputs and outputs** and a **processing unit in between**, that can interpret the input and send signals out through the outputs. We will take a detailed look at all the Pins below
+Let’s dive deeper into the heart of our project **– the Daisy Seed Microcontroller**. As mentioned before, it has been designed specifically for the creation of **embedded audio projects**. If you’ve never worked with a microcontroller before, you can imagine it as a controller **with a number of inputs and outputs** and a **processing unit in between**, that can interpret the input and send signals out through the outputs. We will take a detailed look at all the Pins below
 
 <img width="1080" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/93f53edf-199b-424b-8d62-87b651d9d668" />
 
@@ -28,5 +28,8 @@ Note that **one analog pin** can only be used for a **single control with a simp
 
 
 The Pins referenced as **“peripheral GPIO”** (violet color) can be used to communicate with external devices and to send or receive serial data. In this project, we will only make use of the **UART4 Rx Input** (Pin 12 / D11) **to receive our MIDI-Input** from an outside source. However, if you plan on extending your project and want to **incorporate a display, SD-Card or other features**, I recommend reading more about the Daisy Pin IO [here](https://daisy.audio/hardware/Seed/). Note that not all features might be compatible with heavy and Plug Data.
+
+## Daisy Memory 
+The Daisy features a **few different types of internal memory**, differing in size and speed. The **internal flash-memory of 128kB** can be used to run smaller programs. If your Program exceeds this size, you need to flash the **bootloader** into the flash-memory and **upload the program into a different memory**, such as SRAM. The bootloader is a small program, that will boot our loaded program from other directories than the internal flash. This may sound complicated at first, but **it is easily done via the heavy-compiler integration in Plug Data**, where you simply select the size of your patch and it will get automatically assigned to the right memory storage of the daisy. We will have a detailed look at this in [here]({{site.baseurl}}/chapter-04/04-3-hvcc)
 
 > Continue with the next chapter about the heavy compiler [here]({{site.baseurl}}/chapter-04/04-3-hvcc)!
