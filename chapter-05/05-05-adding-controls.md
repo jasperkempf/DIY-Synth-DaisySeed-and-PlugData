@@ -5,7 +5,7 @@ parent: 05 Programming a Synthesizer
 nav_order: 5
 ---
 
-# 05.5 - Adding Controls
+# 05.5 Adding Controls
 
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 > 📖 The example patch for this chapter are `Pd11-simulating-analog_smoothing`, `Pd12-sliders-vs-analog.pd`.
