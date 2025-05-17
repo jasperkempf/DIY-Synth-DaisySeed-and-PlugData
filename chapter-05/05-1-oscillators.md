@@ -5,7 +5,7 @@ parent: 05 Programming a Synthesizer
 nav_order: 1
 ---
 
-# 05.1 - Oscillators
+# 05.1 Oscillators
 
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 
