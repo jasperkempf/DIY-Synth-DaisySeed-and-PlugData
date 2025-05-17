@@ -5,7 +5,7 @@ parent: 05 Programming a Synthesizer
 nav_order: 3
 ---
 
-# 05.3 - Modulation
+# 05.3 Modulation
 
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 > 📖 The example patch for this chapter are `_Pd04-LFO-Example_`, `_Pd05-LFO-SimpleFM`, `Pd06-OscFM`, `Pd07-LFO-SimpleAM`, `Pd08-1-Envelope` and `Pd08-2-Envelope-Sequence`
