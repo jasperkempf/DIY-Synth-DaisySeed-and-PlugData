@@ -22,7 +22,7 @@ Having the Daisy connected to our computer via the USB-cable, **we can now flash
 
 **Depending on your project, you need to specify the size in the `Patch-Size`-category.** Depending on the size, the Patch will be flashed to different memories of the Daisy. Choosing `SMALL` will flash the patch to the **internal flash memory,** which has 128kB of storage. **If your project exceeds this size, you should select other options** such as `BIG` - which will flash to SRAM (480kB) - or `BIG + SDRAM`, which will make **additional use of the SDRAM-memory.**
 
-<img width="540" alt="Bildschirmfoto 2025-05-17 um 17 15 41" src=(https://github.com/user-attachments/assets/42566a4a-c4f0-4e61-ad5d-35ca80726863)>
+<img width="540" alt="Bildschirmfoto 2025-05-17 um 17 15 41" src="https://github.com/user-attachments/assets/42566a4a-c4f0-4e61-ad5d-35ca80726863" />
 
 > Press "Flash" to export!⚡️
 
