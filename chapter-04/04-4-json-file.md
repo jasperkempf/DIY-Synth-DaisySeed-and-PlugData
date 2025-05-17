@@ -40,7 +40,7 @@ This is what a **simple JSON-file** could look like configuring **a single poten
 
 > 🧑‍💻 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
 
-**This is what my final JSON-file looked like**, where i included 12 analog controls, 6 Switches and 6 LEDs. It is included in the downloadable example-files (_JsonExample-Controls-MIDI-LEDS.json_):
+**This is what my final JSON-file looked like**, where i included 12 analog controls, 6 Switches and 6 LEDs. It is included in the <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>downloadable example-files</a> (_JsonExample-Controls-MIDI-LEDS.json_):
 
 ```
 {
@@ -198,4 +198,4 @@ This is what a **simple JSON-file** could look like configuring **a single poten
 
 ```
 
-## → Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
+## → Continue with chapter 05 about programming a synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
