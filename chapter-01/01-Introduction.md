@@ -13,7 +13,7 @@ Feel free to follow along step by step — or jump straight to the chapter that 
 
 > 💡 Note: This course is designed for beginners with little to no prior experience in coding or working with microcontrollers. I hope you will discover useful insights for your own project!
 
-**What we will learn in the following chapters:**
+## What we will learn in the following chapters:
 
 - [**02 Installations**]({{site.baseurl}}/chapter-02/02-Installations): Overview of the used software and links to download. 
 - [**03 Components**]({{site.baseurl}}/chapter-03/03-Components): Overview of the used hardware-components.
