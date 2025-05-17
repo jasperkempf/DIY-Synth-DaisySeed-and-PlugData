@@ -5,8 +5,9 @@ parent: 04 Tools
 nav_order: 3
 ---
 
-# 04.3 📑 Heavy Compiler Collection (hvcc) 
+# 04.3 Heavy Compiler Collection (hvcc) 
 
+## 📑 hvcc
 The heavy compiler collection is a tool to **transform our Pd-Patch into C Code**, so the Daisy Seed can understand it. To explain what hvcc does, I include the following excerpt from the official heavy documentation:
 
 > _“Heavy is a **framework for easily generating audio plugins** for use in interactive sound and music applications such as **games, instruments or installations.**
