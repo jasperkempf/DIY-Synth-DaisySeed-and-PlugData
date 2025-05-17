@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start
-nav_order: 1
+nav_exclude: true
 ---
 
 # Welcome to this guide on building a Synthesizer with Daisy Seed and Plug Data
