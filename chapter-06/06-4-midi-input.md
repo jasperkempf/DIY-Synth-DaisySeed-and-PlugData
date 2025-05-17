@@ -12,11 +12,17 @@ nav_order: 4
 
 ## 🔌 MIDI-Input
 
-To make our synthesizer **compatible with external devices** such as keyboards or sequencers, we will implement a **MIDI-Input.** This can be realized via the `UART Rx`-Pin, which is **Pin 14** on the Daisy. In order to make it work, we need to **convert the analog input** – that our MIDI-Port receives, **into serial data.** 
-
-This can be done by **using an optocoupler** – in this case we’ll use the `6N138`, which is recommended in the official MIDI-Documentation. The MIDI-Documentation includes the following schematic:
+To make our synthesizer **compatible with external devices** such as keyboards or sequencers, we will implement a **MIDI-Input.** This can be realized via the `UART Rx`-Pin, which is **Pin 14** on the Daisy. In order to make it work, we need to **convert the analog input** – that our MIDI-Port receives, **into serial data.** I am following the official MIDI-Documentation to install the MIDI-Input, which includes the following schematic:
 
 <img width="1080" alt="midi-input-schematic" src="https://github.com/user-attachments/assets/d785da1d-aa7e-48a8-835e-e78809d0c248" />
+
+> MIDI-Input installation according to the official MIDI-Documentation (https://drive.google.com/file/d/1L2YHBOZdSCuMg-RFR3TTEJcdV6KWkLZ9/view)
+
+Converting the incoming data stream into serial data is achieved by **using an optocoupler** – in this case we’ll use the `6N138`, which is recommended in the official MIDI-Documentation above. The Schematic of the 6N138 giving us an insight of its functionality:
+
+![Bildschirmfoto 2025-04-11 um 11 33 45](https://github.com/user-attachments/assets/d01f9375-99c4-42bc-a61f-b68634025dd9)
+
+> 6N138 Schematic (Source: Reichelt)
 
 The following **fritzing-schematic** shows, how I realized the connection on a breadboard to make the MIDI-input work. I used the following components:
 - 1x 5-Pin DIN-Jack
