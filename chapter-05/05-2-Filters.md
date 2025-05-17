@@ -5,7 +5,7 @@ parent: 05 Programming a Synthesizer
 nav_order: 2
 ---
 
-# 05.2 - Filters
+# 05.2 Filters
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 > 📖 The example patch for this chapter is `_Pd03-Filter-Examples_`.
 
