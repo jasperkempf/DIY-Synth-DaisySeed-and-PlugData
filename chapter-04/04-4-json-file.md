@@ -7,11 +7,12 @@ nav_order: 4
 
 # 04.4 - JSON File
 
-A JSON-File (Javascript object notation) is a text-based code-file to store and transmit data. It is relatively simple and easy to read. We will use it, to tell the Daisy Seed, which Inputs and Outputs – which we configured in our Plug Data Patch – correspond to which pins of the microcontroller. The JSON-File will function as the connection between hardware and software and is crucial for our Instrument to work properly. 
+## 💿 JSON
+A JSON-File (Javascript object notation) is a **text-based code-file to store and transmit data.** It is relatively simple and easy to read. We will use it, to tell the Daisy Seed, **which Inputs and Outputs** – which we configured in our Plug Data Patch – **correspond to which pins of the microcontroller**. The JSON-File will function as the **connection between hardware and software** and is crucial for our Instrument to work properly. 
 
 We will configure all used potentiometers, switches, leds as well as the number of our audio-channels and the MIDI-functionalities in this file. To upload it to our Daisy, we can select the file in the compile-window inside Plug Data when flashing our patch.
 
-This is what a simple JSON-File could look like to configure one potentiometer, MIDI and stereo-audio.
+👩‍💻This is what a simple JSON-File could look like configuring **a single potentiometer, MIDI-input and stereo-audio.**
 
 ```
 {
@@ -37,7 +38,7 @@ This is what a simple JSON-File could look like to configure one potentiometer, 
 
 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
 
-This is what my final JSON-File looked like, where i included 12 analog controls, 6 Switches and 6 LEDs (JsonExample-Controls-MIDI-LEDS.json):
+🧑‍💻**This is what my final JSON-File looked like**, where i included 12 analog controls, 6 Switches and 6 LEDs (JsonExample-Controls-MIDI-LEDS.json):
 
 ```
 {
@@ -195,4 +196,4 @@ This is what my final JSON-File looked like, where i included 12 analog controls
 
 ```
 
-> Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
+## → Continue with chapter 05 on programming a heavy-compatible Synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
