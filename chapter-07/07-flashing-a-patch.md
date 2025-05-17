@@ -24,7 +24,7 @@ Having the Daisy connected to our computer via the USB-cable, **we can now flash
 
 <img width="540" alt="Bildschirmfoto 2025-05-17 um 17 15 41" src="https://github.com/user-attachments/assets/42566a4a-c4f0-4e61-ad5d-35ca80726863" />
 
-> Press "Flash" to export!⚡️
+## → Press "Flash" to export!⚡️
 
 When exporting, the **compile window gives us insights of the used memory-region** (you might have to scroll up a bit) as well as **the amount of used percentage per region.** Note that the amount of available SDRAM-Storage can be either 8MB or 64MB, depending on your version of the Daisy Seed.
 
