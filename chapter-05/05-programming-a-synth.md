@@ -7,7 +7,7 @@ has_children: true
 
 # 05 🎛️ Programming a Synthesizer
 
-### 📥 You can download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
+### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 
 
 ## 🔑 Learning Pure Data / Plug Data
