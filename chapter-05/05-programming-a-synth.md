@@ -5,7 +5,7 @@ nav_order: 6
 has_children: true
 ---
 
-# 05 🎛️ Programming a Synthesizer
+# 05 Programming a Synthesizer
 
 ### 📥 Download all example Patches <a href="{{ site.baseurl }}/assets/diy-synth-example-files.zip" download>here</a> !
 
