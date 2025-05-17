@@ -59,7 +59,7 @@ To use our LFO **to modulate the amplitude of a signal**, we can simply **multip
 
 > → Feel free to open the example patches and play around with it to get a better understanding of how they work!
 
-## 🛎️ Envelopes (Pd.08-1-Envelope.pd), (Pd.08-2-Envelope-Sequence.pd)
+### 🛎️ Envelopes (Pd.08-1-Envelope.pd), (Pd.08-2-Envelope-Sequence.pd)
 
 To change the character of played notes, we will have a look of implementing **a simple Amplitude-Envelope**. The patch `_Pd.08-2-Envelope-Sequence.pd_` gives an example of what this can look like with a **simple Attack-Release Envelope**. Activating the sequencer in the top-left of the patch will play a simple 4-Note sequence loop, which will allow us to hear the effects of **tweaking the Attack and Release parameters**. 
 
