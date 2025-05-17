@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 09 Sources & Links
-nav_order: 10
-
+nav_exclude: true
 ---
 
 # Sources and Links
