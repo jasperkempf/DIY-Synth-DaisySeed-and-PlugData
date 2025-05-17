@@ -21,7 +21,6 @@ To make our synthesizer **compatible with external devices** such as keyboards o
 Converting the incoming data stream into serial data is achieved by **using an optocoupler** – in this case we’ll use the `6N138`, which is recommended in the official MIDI-Documentation above. The Schematic of the 6N138 giving us an insight of its functionality:
 
 ![Bildschirmfoto 2025-04-11 um 11 33 45](https://github.com/user-attachments/assets/d01f9375-99c4-42bc-a61f-b68634025dd9)
-
 > 6N138 Schematic (Source: Reichelt)
 
 The following **fritzing-schematic** shows, how I realized the connection on a breadboard to make the MIDI-input work. I used the following components:
