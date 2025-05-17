@@ -79,7 +79,7 @@ As you can see **we have two pairs of** `pack f f` and `$1 $2`-objects. The **le
 
  <img width="1080" alt="05-03-EnvSubpatch" src="https://github.com/user-attachments/assets/ecccd481-b154-4e0c-82cf-34823330d283" />
 
-## → Continue with adding polyphoniy [here]({{site.baseurl}}/chapter-05/05-4-polyphony)!
+## → Continue with adding polyphony [here]({{site.baseurl}}/chapter-05/05-4-polyphony)!
 
 
 
