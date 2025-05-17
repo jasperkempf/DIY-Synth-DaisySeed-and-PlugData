@@ -14,7 +14,7 @@ We will configure all used potentiometers, switches, leds as well as the number 
 
 ## 📝 Examples 
 
-This is what a simple JSON-File could look like configuring **a single potentiometer, MIDI-input and stereo-audio.**
+This is what a **simple JSON-file** could look like configuring **a single potentiometer, MIDI-input and stereo-audio.**
 
 ```
 {
@@ -38,9 +38,9 @@ This is what a simple JSON-File could look like configuring **a single potentiom
 }
 ```
 
-> There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
+> 🧑‍💻 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
 
-**This is what my final JSON-File looked like**, where i included 12 analog controls, 6 Switches and 6 LEDs. It is included in the downloadable example-files (_JsonExample-Controls-MIDI-LEDS.json_):
+**This is what my final JSON-file looked like**, where i included 12 analog controls, 6 Switches and 6 LEDs. It is included in the downloadable example-files (_JsonExample-Controls-MIDI-LEDS.json_):
 
 ```
 {
