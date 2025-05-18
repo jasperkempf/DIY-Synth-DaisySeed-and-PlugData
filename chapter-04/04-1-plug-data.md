@@ -36,7 +36,7 @@ Just like Pure Data, Plug Data is **open source and completely free to download*
 
 ## 🟠 Limitations of Plug Data and Daisy
 
-As previously mentioned in the context of compiled mode: using Plug Data with the Daisy Seed comes with certain limitations. Since the patch must be compiled using the heavy compiler, we are restricted to using only heavy-compatible objects. In [chapter 05]({{site.baseurl}}/chapter-05/05-programming-a-synth), we will take a closer look at which objects are supported and how to build a synthesizer in Plug Data that works seamlessly with the Daisy Seed.
+As previously mentioned in the context of compiled mode: **using Plug Data with the Daisy Seed comes with certain limitations**. Since the patch must be compiled using the heavy compiler, we are restricted to using **only heavy-compatible objects**. In [chapter 05]({{site.baseurl}}/chapter-05/05-programming-a-synth), we will take a closer look at which objects are supported and how to **build a synthesizer in Plug Data that works seamlessly with the Daisy Seed**.
 
 ## → Continue with the next chapter about the Daisy Seed [here]({{site.baseurl}}/chapter-04/04-2-daisy-seed)!
 
