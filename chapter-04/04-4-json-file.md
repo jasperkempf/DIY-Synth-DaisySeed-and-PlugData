@@ -10,7 +10,15 @@ nav_order: 4
 ## 💿 JSON
 A JSON-File (Javascript object notation) is a **text-based code-file to store and transmit data.** It is relatively simple and easy to read. We will use it, to tell the Daisy Seed, **which Inputs and Outputs** – which we configured in our Plug Data Patch – **correspond to which pins of the microcontroller**. The JSON-File will function as the **connection between hardware and software** and is crucial for our Instrument to work properly. 
 
+> 💡 I recommend reading this **short article on the Daisy Support Page** about creating custom JSON-Files: https://daisy.audio/tutorials/oopsy/oopsy-custom-json/
+
 We will configure all used potentiometers, switches, leds as well as the number of our audio-channels and the MIDI-functionalities in this file. To upload it to our Daisy, we can select the file in the compile-window inside Plug Data when flashing our patch.
+
+## 🔩 Available Components
+As you can see in the JSON-Examples below, there are some **predefined components** which we can choose from, such as "Switch". The following list shows the available components: 
+<img width="764" alt="Bildschirmfoto 2025-05-18 um 17 21 58" src="https://github.com/user-attachments/assets/935e5f4c-e8d1-424a-996d-eb07d1dfdd76" />
+> → Source: https://daisy.audio/tutorials/oopsy/oopsy-custom-json/
+
 
 ## 📝 Examples 
 
@@ -195,8 +203,9 @@ This is what a **simple JSON-file** could look like configuring **a single poten
 
 
 ```
-
 > 🧑‍💻 There are a few more examples and further resources about building custom JSON-files for Daisy available on the [Daisy support site](https://daisy.audio/tutorials/oopsy/oopsy-custom-json/) as well as in the [Oopsy Github repository](https://github.com/CorvusPrudens/oopsy/tree/sensors_update/source)
+
+
 
 
 ## → Continue with chapter 05 about programming a synth with PD [here]({{site.baseurl}}/chapter-05/05-programming-a-synth)!
