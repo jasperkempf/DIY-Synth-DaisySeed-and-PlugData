@@ -9,9 +9,9 @@ nav_order: 2
 
 ## 🌼 Daisy Seed
 
-Let’s dive deeper into the heart of our project **– the Daisy Seed Microcontroller**. As mentioned before, it has been designed specifically for the creation of **embedded audio projects**. If you’ve never worked with a microcontroller before, you can imagine it as a controller **with a number of inputs and outputs** and a **processing unit in between**, that can interpret the input and send signals out through the outputs. We will take a detailed look at all the Pins below
+Let’s dive deeper into the heart of our project **– the Daisy Seed Microcontroller**. As mentioned before, it has been designed specifically for the creation of **embedded audio projects**. If you’ve never worked with a microcontroller before, you can imagine it as a controller **with a number of inputs and outputs** and a **processing unit in between**, that can interpret the input and send signals out through the outputs. We will take a detailed look at all the Pins below.
 
-<img width="1080" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/93f53edf-199b-424b-8d62-87b651d9d668" />
+<img width="1080" alt="Bildschirmfoto 2025-05-15 um 12 26 58" src="https://github.com/user-attachments/assets/5dfea2b1-fe7c-4442-89cc-7ae3963076c3" />
 
 Let’s take a quick look at the overall specs of the Daisy Seed and why it is so well suited for audio projects. Firstly, it allows to be programmed in a number of languages such as **C++, Max gen~ and Pure Data, as well as Arduino**. This allows creators from different backgrounds and levels of experience to get started with their first Daisy-based projects. The Daisy runs on an **ARM Cortex-M7 MCU**, which is a **relatively high performing and energy efficient processor**. It allows for **stereo audio at 96kHz and 24-Bit**, enabling us to build **high fidelity audio devices.** With the 64MB version, you get 64MB SDRAM which can be used for storing **up to 10 minute long buffers.** Also it includes **8MB of external flash storage.**
 It even features the opportunity of an SD card interface, PWM outputs and various serial protocols for external devices. You can learn more about the technical specifications of the Daisy Seed [here](https://daisy.audio/hardware/Seed/).
