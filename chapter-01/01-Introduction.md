@@ -25,7 +25,7 @@ Feel free to follow along step by step — or jump straight to the chapter that 
   
 ![IMG_2577](https://github.com/user-attachments/assets/fb78d866-eece-4916-ae43-1edcf5d078cc)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QxBv3_lprgw" 
+<iframe width="1080" height="720" src="https://www.youtube.com/embed/QxBv3_lprgw" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
