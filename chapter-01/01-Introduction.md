@@ -22,11 +22,13 @@ Feel free to follow along step by step — or jump straight to the chapter that 
 - [**06 Daisy Hardware Configuration**]({{site.baseurl}}/chapter-06/06-Daisy-Hardware-Configuration): Configure a Daisy board and equip it with the necessary components.
 - [**07 Flashing a patch**]({{site.baseurl}}/chapter-07/07-flashing-a-patch): Upload our heavy-compatible patch onto the Daisy.
 - [**08 Outlook and Sources**]({{site.baseurl}}/chapter-08/08-outlook): Sources and further information
-  
-![IMG_2577](https://github.com/user-attachments/assets/fb78d866-eece-4916-ae43-1edcf5d078cc)
 
 <iframe width="1080" height="720" src="https://www.youtube.com/embed/QxBv3_lprgw" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
 </iframe>
+
+> This is a demo-track i created only with the synthesizer programmed in the course of this project. I added drums and ableton-effects (reverb, delay and EQ).
+
+![IMG_2577](https://github.com/user-attachments/assets/fb78d866-eece-4916-ae43-1edcf5d078cc)
