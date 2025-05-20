@@ -23,7 +23,7 @@ Feel free to follow along step by step — or jump straight to the chapter that 
 - [**07 Flashing a patch**]({{site.baseurl}}/chapter-07/07-flashing-a-patch): Upload our heavy-compatible patch onto the Daisy.
 - [**08 Outlook and Sources**]({{site.baseurl}}/chapter-08/08-outlook): Sources and further information
 
-<iframe width="1080" height="720" src="https://www.youtube.com/embed/QxBv3_lprgw" 
+<iframe width="720" height="540" src="https://www.youtube.com/embed/QxBv3_lprgw" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
